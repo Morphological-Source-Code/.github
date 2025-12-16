@@ -1,5 +1,5 @@
 ---
-tag: [Morphological Source Code, Quinic Statistical Dynamics, Public Statements: on MSC & QSD, version: 2.30]
+tag: [Morphological Source Code, Quinic Statistical Dynamics, Public Statements: on MSC & QSD, version: 2.31]
 
 Licenses: CC ND & BSD-3
 copyright: |
@@ -121,6 +121,38 @@ We need to talk more about the singularitie(s). The greats of the 20th century a
 
 # Video Essay #2 — The Hard One © 2025
 [![Video Essay #2 — The Hard One © 2025](http://img.youtube.com/vi/I-DIj-G9pEQ/0.jpg)](https://www.youtube.com/watch?v=I-DIj-G9pEQ "Video Essay #2 — The Hard One © 2025")
+```md
+---
+title: "Morphological Source Code & Quineic Statistical Dynamics Yoneda-Lemma/Matrix-Mechanics Arity-fulcrum"
+url: "https://www.youtube.com/watch?v=I-DIj-G9pEQ"
+description: |
+Logical arity is seemingly the fulcrum of multiscale epistemological so-called emergence, broadly, 'information'. This would imply that Category & Morphism are fundemental, while Set is emergent. Heisenberg, Dirac, and Yoneda give us the formalism for such an ontology.
+0:00 start
+26:00 fin
+```
+
+## Conceptual Orientation / Epistemic RFC
+
+> This section is not a tutorial, not a proof, and not a specification.
+> It is an epistemic orientation document describing how MSC/QSD should be *read*.
+
+MSC/QSD adopts a **relational, morphism-first epistemology**:
+- Observables precede states
+- Transitions precede sets
+- Meaning is derived, not assumed
+
+This orientation is inspired by:
+- Heisenberg’s matrix mechanics (observables as transitions)
+- Dirac’s representation-independent formalism
+- Category-theoretic morphism primacy
+- Practical constraints of computation, thermodynamics, and observability
+
+Readers looking for:
+- APIs → see `/src`
+- Formal specs → see `/docs`
+- Philosophy → see the essays below
+
+What follows is a **conceptual RFC** explaining why MSC/QSD is structured the way it is.
 ## §1 Heisenberg, Dirac, Schrödinger — Where Sets Stop Being Primitive
 
 Heisenberg’s original insight (1925):
