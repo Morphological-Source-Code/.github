@@ -252,6 +252,28 @@ This distinction motivates the computational analogy below.
 
 ---
 
+## §1.5 Putonghua as Native Morphological Source Code
+
+Mandarin Chinese offers a rare empirical instance of a **naturally evolved morphological source code**. Its logographic system—refined over three millennia—encodes meaning not as atomic symbols, but as **structured compositions of semantic and phonetic morphisms**:
+
+> **形旁 (semantic radical) + 声旁 (phonetic component) ⇒ emergent concept**
+
+This is not metaphor. It is **engineered morphology**: each character is a decomposable equation, readable by both humans and (potentially) machines. Consider 象 (*xiàng*, “elephant”):  
+- Semantic field: ⻖ (tusk/animal)  
+- Phonetic hint: 豕 (*shǐ*, “pig,” approximating ancient pronunciation)  
+- Emergent meaning: “elephant”
+
+The system’s origin lies in **experimental semiotics**: Shang dynasty scribes carved glyphs into bone, then read meaning in the **interaction** between fixed form (the glyph) and stochastic fracture (the fire’s crack). The scribe was not a creator, but a **witness to morphological emergence**—a role mirroring the MSC/QSD observer.
+
+Critically, **Western computing remains blind to this paradigm**. Treating Hanzi as atomic tokens ignores their internal transition structure. Yet this very structure satisfies the RFC’s core tenets:
+- **Observables precede states**: Meaning arises from the *relation* between 形 and 意, not from either in isolation.
+- **Transitions precede sets**: Characters are not elements of a set; they are **orbits under morphological transformation** (e.g., adding 氵 to 工 yields 江, “river”).
+- **Meaning is derived**: No dictionary lookup needed—just decompose, relate, infer.
+
+Thus, Putonghua is not merely a language. It is a **closed noetic system**; a living MSC—demonstrating that morphism-first epistemology is not only possible, but **historically actualized**.
+
+The challenge is not invention, but **recognition**: to digitize Hanzi not as text, but as **executable morphology**.
+---
 ## §2 MSC/QSD — The Computational Analogue
 
 **Analogy (epistemic, not ontological):**
