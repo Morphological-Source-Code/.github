@@ -270,9 +270,10 @@ Critically, **Western computing remains blind to this paradigm**. Treating Hanzi
 - **Transitions precede sets**: Characters are not elements of a set; they are **orbits under morphological transformation** (e.g., adding 氵 to 工 yields 江, “river”).
 - **Meaning is derived**: No dictionary lookup needed—just decompose, relate, infer.
 
-Thus, Putonghua is not merely a language. It is a **closed noetic system**; a living MSC—demonstrating that morphism-first epistemology is not only possible, but **historically actualized**.
+Thus, Putonghua is not merely a language. It is a **closed noetic system**; a living MSC-demonstrating that morphism-first epistemology is not only possible, but **historically actualized**.
 
 The challenge is not invention, but **recognition**: to digitize Hanzi not as text, but as **executable morphology**.
+
 ---
 ## §2 MSC/QSD — The Computational Analogue
 
