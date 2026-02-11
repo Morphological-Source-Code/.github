@@ -1,13 +1,13 @@
 ---
-tag: [Morphological Source Code, Quinic Statistical Dynamics, Public Statements: on MSC & QSD, version: 2.31]
+tag: [Morphological Source Code, Quinic Statistical Dynamics, Public Statements: on MSC & QSD, version: 2.42]
 
 Licenses: CC ND & BSD-3
 copyright: |
 
-  © 2025 Phovos https://github.com/Phovos/Morphological-Source-Code
+  © 2026 Phovos https://github.com/Phovos/Morphological-Source-Code
 copyright2: |
 
-  © 2023-2025 Moonlapsed https://github.com/MOONLAPSED/Cognosis
+  © 2023-2026 Moonlapsed https://github.com/MOONLAPSED/Cognosis
 
 link: "[/profile/README.md](/profile/README.md)"
 ---
@@ -54,11 +54,12 @@ CommunityLinks: [r/Morphological](https://www.reddit.com/r/Morphological/) | [Ph
 
 NEW: [r/Quine](https://www.reddit.com/r/Quine); | [production gitter(dev-chat)](https://app.gitter.im/#/room/#production:gitter.im)
 
-> © 2025 Quineic https://github.com/Quineic/Source |  CC ND && BSD-3 | SEE LICENSE
+> © 2026 Quineic https://github.com/Quineic/Source |  CC ND && BSD-3 | SEE LICENSE
 
-> © 2024-25 Phovos https://github.com/Phovos/Morphological |  CC ND && BSD-3 | SEE LICENSE
+> © 2024-26 Phovos https://github.com/Phovos/Morphological |  CC ND && BSD-3 | SEE LICENSE
 
-> © 2023-25 Moonlapsed https://github.com/MOONLAPSED/Cognosis | MIT/BSD
+> © 2023-26 Moonlapsed https://github.com/MOONLAPSED/Cognosis | MIT/BSD
+
 ### Video Essay/RFC © 2024 
 [![Ontological Relativity & AI Singularity: Convening Epistemic Dualities and Morphological Source Code](http://img.youtube.com/vi/ecQevCn-fcI/0.jpg)](https://www.youtube.com/watch?v=ecQevCn-fcI "Ontological Relativity & AI Singularity: Convening Epistemic Dualities and Morphological Source Code")
 
@@ -131,10 +132,7 @@ Logical arity is seemingly the fulcrum of multiscale epistemological so-called e
 26:00 fin
 ```
 
-## Conceptual Orientation / Epistemic RFC
-
-> This section is not a tutorial, not a proof, and not a specification.
-> It is an epistemic orientation document describing how MSC/QSD should be *read*.
+## Conceptual Orientation
 
 MSC/QSD adopts a **relational, morphism-first epistemology**:
 - Observables precede states
@@ -145,15 +143,12 @@ This orientation is inspired by:
 - Heisenberg’s matrix mechanics (observables as transitions)
 - Dirac’s representation-independent formalism
 - Category-theoretic morphism primacy
-- Practical constraints of computation, thermodynamics, and observability
+- Practical constraints of computation, thermodynamics, and observability, chiefly staked-out for subsequent exploration:
+  - Mach & Noether (Einstein, Euler, etc.)
 
-Readers looking for:
-- APIs → see `/src`
-- Formal specs → see `/docs`
-- Philosophy → see the essays below
 
 What follows is a **conceptual RFC** explaining why MSC/QSD is structured the way it is.
-## §1 Heisenberg, Dirac, Schrödinger — Where Sets Stop Being Primitive
+## §1 Heisenberg, Dirac, Schrödinger
 
 Heisenberg’s original insight (1925):
 
@@ -263,16 +258,14 @@ This is not metaphor. It is **engineered morphology**: each character is a decom
 - Phonetic hint: 豕 (*shǐ*, “pig,” approximating ancient pronunciation)  
 - Emergent meaning: “elephant”
 
-The system’s origin lies in **experimental semiotics**: Shang dynasty scribes carved glyphs into bone, then read meaning in the **interaction** between fixed form (the glyph) and stochastic fracture (the fire’s crack). The scribe was not a creator, but a **witness to morphological emergence**; a role mirroring the MSC/QSD observer.
+The system’s origin lies in **experimental semiotics** and their application-through **hermenuetics**: Shang dynasty scribes carved glyphs into bone, then read meaning in the **interaction** between fixed form (the glyph) and stochastic fracture (the fire’s crack). The scribe was not a creator, but a **witness to morphological emergence**; a role mirroring the MSC/QSD observer.
 
 Critically, **Western computing remains blind to this paradigm**. Treating Hanzi as atomic tokens ignores their internal transition structure. Yet this very structure satisfies the RFC’s core tenets:
 - **Observables precede states**: Meaning arises from the *relation* between 形 and 意, not from either in isolation.
 - **Transitions precede sets**: Characters are not elements of a set; they are **orbits under morphological transformation** (e.g., adding 氵 to 工 yields 江, “river”).
 - **Meaning is derived**: No dictionary lookup needed—just decompose, relate, infer.
 
-Thus, Putonghua is not merely a language. It is a **closed noetic system**; a living MSC-demonstrating that morphism-first epistemology is not only possible, but **historically actualized**.
-
-The challenge is not invention, but **recognition**: to digitize Hanzi not as text, but as **executable morphology**.
+Thus, Putonghua is not merely a language. It is a **closed noetic system**; a living **MSC**. Being a, previously, "hooked-on-phonics" (which, no-hate; it may be that 'phonics' is 'what it took' to bootstrap the digital age) linguistic ['Western'] novice, like myself, that is just-now learning the Chinese-Language, after a lifetime of basically-ignoring it, it's-all a bit overwhelming and I appologize for any faux pas I may commit and will refrain from pointing and gawking (to-put it mildly; there are real problems associated with this thing I'm attempting to brush-off, right-now). Add-to it the fact that my cognitive horizons are expanding-at the same time as my vocabulary and awarness of Chinese, as-well as my unorthodox style (and project, tbh), can come-off as overly-excited and, regretably-even, Orientalist. The one-defense that I have is that it's not ONLY the Chinese-language, indeed all idea/pictographic, hybrid-phonetic, or other non-phonics-only language demonstrate that morphism-first epistemology is not only possible, but **historically and culturally actualized**, and should I have to go-down fighting with any of my rhetorical cognitive comrades then let it be Jung, specifically, the identity and historical-cultural moment that is the hill I will die-on (and NOT Shopenhauer; allowing-for the reader to read between the lines, rather than stating it outright). The goal of this project is not co-invention, or piracy but **recognition**-of, and further-study and engineering-to; digitize Hanzi not as text, but as **executable morphology**.
 
 ---
 ## §2 MSC/QSD — The Computational Analogue
@@ -473,22 +466,49 @@ In MSC/QSD, these arities **coincide operationally**, indicating a shared underl
 
 ---
 
-## §6 Takeaway
+## §6 Takeaway & the future
 
 You cannot observe structure without relation.
 You cannot derive meaning without transition.
 You cannot have sets without morphisms.
 
-Sets are not abolished —
-they are **earned**.
+Therefore; you cannot have cognition; morphological-extremes (values, as-in [[Extreme Value Theorem]]), without topology and motility.
 
+### Epistemic topology (of MSC)
+
+```md
+NOUMENAL (inaccessible)
+         |
+  ==================== ← Undecidable boundary (halting problem)
+         |
+    NP-complete         ← Maupertuis domain: δS = 0 (global optimization)
+   (breeding bubble)        • Quine speciation
+         |                  • Fitness landscape traversal
+         |                  • Holonomy search (non-Markovian)
+  ==================== ← P/NP boundary (gauge transformation surface)
+         |
+   P-time interior       ← Barandes domain: d² = 0 (local stability)
+(phenomenal lightcone)      • Quine replication (Markovian)
+         |                  • Verification (holonomy closure)
+         |                  • Observable physics
+         |
+      δS = 0 (Maupertuis)   ← Variational principle (global)
+      d² = 0 (Barandes)     ← Differential stability (local)
 ```
+
 
 ### Repos, Copyright
 
-Release repos (2026):
-    © 2025 Quineic https://github.com/Quineic/Source | CC ND && BSD-3 | SEE LICENSE
-    © 2025 https://github.com/orgs/Morphological-Source-Code/discussions/1
+Release repos:
+> Mostly-private as of Q1 2026; build-phase
+
+    © 2026 Quineic https://github.com/Quineic/Source
+    © 2026 https://github.com/orgs/Morphological-Source-Code/discussions/1
+    © 2026 https://gitlab.com/morphological/source/code
+    © 2026 https://msc-ap-southeast-1.devops.alibabacloudcs.com
+
 Historical:
-    © 2024-25 Phovos https://github.com/Phovos/Morphological | CC ND && BSD-3 | SEE LICENSE
-    © 2023-25 Moonlapsed https://github.com/MOONLAPSED/Cognosis | MIT/BSD
+> Caution: for archival/pedagogical purposes, not-for use
+
+    © 2024-26 Phovos https://github.com/Phovos/Morphological | CC ND && BSD-3 | SEE LICENSE
+    © 2023-26 Moonlapsed https://github.com/MOONLAPSED/Cognosis | MIT/BSD
