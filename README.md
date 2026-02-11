@@ -1,5 +1,5 @@
-# Morphological Source Code (MSC/QSD)
-
+# Morphological Source Code (MSC/QSD) landing-page
+> The organizational-vehicle for deploying Morphological Source Code to to the world of work and finance, business-logic and the contemporary market.
 **A CPython standard-library-only framework for morphological computation with hermitian type semantics**
 **Welcome to the root of the Morphological Source Code (MSC) repository!**
 
@@ -7,15 +7,25 @@
 [![License: BSD-3 & CC-BY-ND](https://img.shields.io/badge/license-BSD3%20%26%20CC--BY--ND-green.svg)](LICENSE)
 [![Status: Experimental](https://img.shields.io/badge/Status-Experimental-red.svg)](https://github.com/Quineic/Source)
 
+
+Release repos:
+> Mostly-private as of Q1 2026; build-phase
+
+    © 2026 Quineic https://github.com/Quineic/Source
+    © 2026 https://github.com/orgs/Morphological-Source-Code/discussions/1
+    © 2026 https://gitlab.com/morphological/source/code
+    © 2026 https://msc-ap-southeast-1.devops.alibabacloudcs.com
+
+Historical:
+> Caution: for archival/pedagogical purposes, not-for use
+
+    © 2024-26 Phovos https://github.com/Phovos/Morphological | CC ND && BSD-3 | SEE LICENSE
+    © 2023-26 Moonlapsed https://github.com/MOONLAPSED/Cognosis | MIT/BSD
+
 CommunityLinks: [r/Morphological](https://www.reddit.com/r/Morphological/) | [Phovos@X](https://x.com/Phovso) | [Phovos@youtube](https://www.youtube.com/@phovos) | [Code of Conduct](https://github.com/Quineic/.github/CODE_OF_CONDUCT.md)
 
-NEW: [r/Quine](https://www.reddit.com/r/Quine); | [production gitter(dev-chat)](https://app.gitter.im/#/room/#production:gitter.im)
+---
 
-> © 2025 Quineic https://github.com/Quineic/Source |  CC ND && BSD-3 | SEE LICENSE
-
-> © 2024-25 Phovos https://github.com/Phovos/Morphological |  CC ND && BSD-3 | SEE LICENSE
-
-> © 2023-25 Moonlapsed https://github.com/MOONLAPSED/Cognosis | MIT/BSD
 ## Video RFC © 2024 
 [![Ontological Relativity & AI Singularity: Convening Epistemic Dualities and Morphological Source Code](http://img.youtube.com/vi/ecQevCn-fcI/0.jpg)](https://www.youtube.com/watch?v=ecQevCn-fcI "Ontological Relativity & AI Singularity: Convening Epistemic Dualities and Morphological Source Code")
 
@@ -75,3 +85,26 @@ We need to talk more about the singularitie(s). The greats of the 20th century a
 44:00 reiterate/state quasi hypothesis about 'intensive' character of the computational moment abstracted as a differential equation
 45:30 'live' programming example - I promise I'm a better coder when the camera isn't on
 ```
+
+---
+
+# Video Essay #2 — The Hard One © 2025
+[![Video Essay #2 — The Hard One © 2025](http://img.youtube.com/vi/I-DIj-G9pEQ/0.jpg)](https://www.youtube.com/watch?v=I-DIj-G9pEQ "Video Essay #2 — The Hard One © 2025")
+```md
+---
+title: "Morphological Source Code & Quineic Statistical Dynamics Yoneda-Lemma/Matrix-Mechanics Arity-fulcrum"
+url: "https://www.youtube.com/watch?v=I-DIj-G9pEQ"
+description: |
+Logical arity is seemingly the fulcrum of multiscale epistemological so-called emergence, broadly, 'information'. This would imply that Category & Morphism are fundemental, while Set is emergent. Heisenberg, Dirac, and Yoneda give us the formalism for such an ontology.
+0:00 start
+26:00 fin
+```
+
+All copyright or intellectual-property, scholarly-product referred-to in this and connected documents is in-reference only and wholly belongs to those who own and/or invented-it. No affiliation. I applogize for my poor bibliographical-hygene, but for my intents-and-purposes, aknowledging the creator or inventor as a proper-noun within the concepts core-description, is the best I can-do for now. For example:
+
+
+> “One ought to concentrate one’s attention on things which are grossly connected with what one can observe.  
+> The things one can observe, being each related to two states, are expressed naturally as a matrix-array of numbers.  
+> One should consider the whole set of numbers, together.”
+- Heisenberg
+- (sorry I don't have any-more of a bibliographical payload, but at-least it's attributed is how I think-about it)
