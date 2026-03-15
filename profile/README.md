@@ -1,5 +1,5 @@
 ---
-tag: [Morphological Source Code, Quinic Statistical Dynamics, Public Statements: on MSC & QSD, version: 2.42]
+tag: [Public Statements: on MSC & QSD, Morphological Source Code, Quinic Statistical Dynamics, version: 2.50]
 
 Licenses: CC ND & BSD-3
 copyright: |
@@ -9,12 +9,12 @@ copyright2: |
 
   © 2023-2026 Moonlapsed https://github.com/MOONLAPSED/Cognosis
 
-link: "[/profile/README.md](/profile/README.md)"
+link: "[/.github/profile/README.md](/.github/profile/README.md)"
 ---
 <!-- This document uses YAML front matter for metadata management in a third-party tool not git: 
 
 # Best practices:
-- Utilize camelCase for internal source code
+- Utilize camelCase for internal source code (lowerFirst; not CamelCase)
 - Utilize CAPS_CASE for ffi funcs and external source
 
 # Frontmatter Implementation
@@ -50,11 +50,9 @@ Organizational-vehicle for deploying Morphological Source Code to to the world o
 [![License: BSD-3 & CC-BY-ND](https://img.shields.io/badge/license-BSD3%20%26%20CC--BY--ND-green.svg)](LICENSE)
 [![Status: Experimental](https://img.shields.io/badge/Status-Experimental-red.svg)](https://github.com/Quineic/Source)
 
-CommunityLinks: [r/Morphological](https://www.reddit.com/r/Morphological/) | [Phovos@X](https://x.com/Phovso) | [Phovos@youtube](https://www.youtube.com/@phovos) | [Code of Conduct](https://github.com/Quineic/.github/CODE_OF_CONDUCT.md)
+CommunityLinks: [r/Morphological](https://www.reddit.com/r/Morphological/) | [Phovos@X](https://x.com/Phovso) | [Phovos@youtube](https://www.youtube.com/@phovos) | [Code of Conduct](https://github.com/Quineic/.github/CODE_OF_CONDUCT.md) | NEW: [r/Quine](https://www.reddit.com/r/Quine); 
 
-NEW: [r/Quine](https://www.reddit.com/r/Quine); | [production gitter(dev-chat)](https://app.gitter.im/#/room/#production:gitter.im)
-
-> © 2026 Quineic https://github.com/Quineic/Source |  CC ND && BSD-3 | SEE LICENSE
+> Ⓟ© 2026 Quineic(SP): MSC&QSD github.com/Morphological-Source-Code |  CC ND && BSD-3 | SEE LICENSE (not-admissable as prior-art)
 
 > © 2024-26 Phovos https://github.com/Phovos/Morphological |  CC ND && BSD-3 | SEE LICENSE
 
@@ -496,19 +494,47 @@ NOUMENAL (inaccessible)
       d² = 0 (Barandes)     ← Differential stability (local)
 ```
 
+```
+    ┌─────────────────────────────────────┐
+    │  MORPHOLOGICAL SOURCE CODE (Python) │
+    │  - Defines the rules                │
+    │  - Human-readable                   │
+    │  - The "law"; arbitrary/interpreted │
+    │  - The propagator/generator U(x,y)  │
+    │  - "Macroscopic"                    │
+    └─────────────────────────────────────┘
+                    │
+       for example: ▼ JIT compilation
+    ┌─────────────────────────────────────┐
+    │  QUINEIC STATISTICAL DYNAMICS (C99) │
+    │  - Executes the rules               │
+    │  - Machine-speed                    │
+    │  - The "execution"                  │
+    │  - The dynamics ψ(t+1) = U ψ(t)     │
+    │  - "Microscopic"                    │
+    └─────────────────────────────────────┘
+                    │
+           "Quine": ▼ self-observation
+    ┌─────────────────────────────────────┐
+    │  THE SAME CODE, STATE/LOGIC         │
+    │  - Python reads its own C output    │
+    │  - C runs the Python-defined rules  │
+    │  - The system observes itself       │
+    │  - "Emergent" and/or "Entangled"    │
+    │  - "RetardedAnalyticalContinuation" |
+    └─────────────────────────────────────┘
+```
 
-### Repos, Copyright
 
+# Repos, Copyright
 Release repos:
-> Mostly-private as of Q1 2026; build-phase
 
-    © 2026 Quineic https://github.com/Quineic/Source
-    © 2026 https://github.com/orgs/Morphological-Source-Code/discussions/1
-    © 2026 https://gitlab.com/morphological/source/code
-    © 2026 https://msc-ap-southeast-1.devops.alibabacloudcs.com
+    © 2026 https://msc-ap-southeast-1.devops.alibabacloudcs.com (private), in-need of funding.
+    Statement: No 'github' implementation of MSC & QSD is likely to exist, what does-exist, there, like this repo is not a 'distribution', nor 'product' and comes with no guarantees whatsoever.
 
 Historical:
-> Caution: for archival/pedagogical purposes, not-for use
+> Caution: for archival/pedagogical purposes, not-for use; NOT-ADMISSABLE AS PRIOR ART - research and development, engineering material
 
-    © 2024-26 Phovos https://github.com/Phovos/Morphological | CC ND && BSD-3 | SEE LICENSE
+    © 2024-26 Phovos https://github.com/Phovos/ | CC ND && BSD-3 | SEE LICENSE
+    © 2025-26 https://gitlab.com/morphological/source/code
     © 2023-26 Moonlapsed https://github.com/MOONLAPSED/Cognosis | MIT/BSD
