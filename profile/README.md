@@ -3,14 +3,16 @@ tag: [Public Statements: on MSC & QSD, Morphological Source Code, Quinic Statist
 
 Licenses: CC ND & BSD-3
 copyright: |
+  © 2026 
+copyright2: |
 
   © 2026 Phovos https://github.com/Phovos/Morphological-Source-Code
-copyright2: |
+copyright3: |
 
   © 2023-2026 Moonlapsed https://github.com/MOONLAPSED/Cognosis
 
-link: "[/.github/profile/README.md](/.github/profile/README.md)"
 ---
+<!-- For Markdown+Yaml interop, the following should be in the 'frontmatter', above, however it doesn't work on github: link: "[/profile/README.md](/profile/README.md)"-->
 <!-- This document uses YAML front matter for metadata management in a third-party tool not git: 
 
 # Best practices:
@@ -52,7 +54,7 @@ Organizational-vehicle for deploying Morphological Source Code to to the world o
 
 CommunityLinks: [r/Morphological](https://www.reddit.com/r/Morphological/) | [Phovos@X](https://x.com/Phovso) | [Phovos@youtube](https://www.youtube.com/@phovos) | [Code of Conduct](https://github.com/Quineic/.github/CODE_OF_CONDUCT.md) | NEW: [r/Quine](https://www.reddit.com/r/Quine); 
 
-> Ⓟ© 2026 Quineic(SP): MSC&QSD github.com/Morphological-Source-Code |  CC ND && BSD-3 | SEE LICENSE (not-admissable as prior-art)
+> Ⓟ© 2026 Quineic(SP): MSC&QSD(TM) github.com/Morphological-Source-Code |  CC ND && BSD-3 | SEE LICENSE (not-admissable as prior-art; TM/SP-PEND Ⓟ 2026)
 
 > © 2024-26 Phovos https://github.com/Phovos/Morphological |  CC ND && BSD-3 | SEE LICENSE
 
@@ -533,7 +535,7 @@ Release repos:
     Statement: No 'github' implementation of MSC & QSD is likely to exist, what does-exist, there, like this repo is not a 'distribution', nor 'product' and comes with no guarantees whatsoever.
 
 Historical:
-> Caution: for archival/pedagogical purposes, not-for use; NOT-ADMISSABLE AS PRIOR ART - research and development, engineering material
+> Caution: not-for use; for archival/pedagogical purposes; NOT-ADMISSABLE AS PRIOR ART (engineering material)
 
     © 2024-26 Phovos https://github.com/Phovos/ | CC ND && BSD-3 | SEE LICENSE
     © 2025-26 https://gitlab.com/morphological/source/code
