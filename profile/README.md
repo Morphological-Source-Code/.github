@@ -2,15 +2,14 @@
 tag: [Public Statements: on MSC & QSD, Morphological Source Code, Quinic Statistical Dynamics, version: 2.50]
 
 Licenses: CC ND & BSD-3
-copyright: |
-  Ⓟ© 2026 Quineic(SP): MSC&QSD(TM) https://github.com/Morphological-Source-Code |  CC ND && BSD-3 | SEE LICENSE (not-admissable as prior-art; TM/SP-PEND Ⓟ 2026)
+copyright: [Ⓟ© 2026 Quineic(SP): MSC&QSD(TM) https://github.com/Morphological-Source-Code, (not-admissable as prior-art; TM/SP-PEND Ⓟ 2026)]
 
 copyright2: |
 
-  © 2026 Phovos https://github.com/Phovos/Morphological-Source-Code
+  © 2025-26 Phovos https://github.com/Phovos/Morphological-Source-Code
 copyright3: |
 
-  © 2023-2026 Moonlapsed https://github.com/MOONLAPSED/Cognosis
+  © 2023-26 Moonlapsed https://github.com/MOONLAPSED/Cognosis
 
 ---
 <!-- For Markdown+Yaml interop, the following should be in the 'frontmatter', above, however it doesn't work on github: link: "[/profile/README.md](/profile/README.md)"-->
