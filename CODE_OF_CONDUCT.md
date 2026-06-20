@@ -1,9 +1,18 @@
 ---
-root: ".github"
-name: "CODE_OF_CONDUCT.md"
-link: "see [CODE_OF_CONDUCT.md](/CODE_OF_CONDUCT.md) for the [[Single Source of Truth]]"
-version: 1.18
+version: 1.0.96
+tags: [MSC, QSD, copyright, LICENSE, attribution]
+copyright: "© 2026 Morphological Source Code & Quineic Statistical Dynamics"
+license: [doc(s)+dist: CC BY-ND-SA 4.0, code+file(s): BSD 3-Clause]
+attributions: [© 2025-2026 https://github.com/Morphological-Source-Code, © 2025-2026 https://gitlab.com/morphological/source/code, CC BY-NC-SA 4.0, BSD-3-Clause]
+Historical: |
+    | © 2024-26 Phovos https://github.com/Phovos/ |
+    | © 2023-26 Moonlapsed https://github.com/MOONLAPSED/ |
+statement: This project employs a layered licensing approach.
+1.:  "Individual source code files are governed by the BSD 3-Clause License."
+2.:  "MSC&QSD, Phovos, and Moonlapsed-distributed packages of 'The Software' (including source, binaries, and accompanying materials) are governed by CC BY-NC-SA 4.0. This means redistribution of modified packages is permitted under the same license."
+3.:  "Any code or data generated automatically by the project's inherent 'quine-like' mechanisms is dedicated to the public domain under CC0 1.0."
 ---
+
 # Morphological Source Code & Quineic Statistical Dynamics (MSC/QSD)
 
 - (1) [Gitlab](https://gitlab.com/morphological/source/code)
@@ -25,9 +34,18 @@ CommunityLinks: [r/Morphological](https://www.reddit.com/r/Morphological/) | [Ph
 > <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;"> © 2023-2026
 <a href="https://github.com/MOONLAPSED/">MSC & QSD</a> © licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en">CC BY-ND-SA 4.0</a> by <a href="https://github.com/MOONLAPSED/">MOONLAPSED</a> <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;">
 
-# The Axiom
+# Framework (Morphological Source Code & Quineic Statistical Dynamics)
+This Code of Conduct operates within the broader epistemological framework defined in [CONTRIBUTING.md](CONTRIBUTING.md). Specifically:
 
-Two axioms is all the community requires to bootstrap a decent behavioral profile and morality. Other than the Golden Rule; our only guideline for community, contribution, and interaction is to **do as thou wilt**.
+- Only humans are subject to this Code of Conduct. Non-human agents, as defined in CONTRIBUTING.md, are not yet capable of the reflexive auto-ontology required for liability and motility insofar as CONTRIBUTING.
+- "Do as thou wilt" is the whole of the law, but "will" is understood in the thermodynamic sense: every action has a footprint, and every footprint is observable in some sense, failing that, unitary in-character.
+- Enforcement follows the guidelines below, but all enforcement actions are grounded in the same epistemological commitments that govern the project's technical and legal frameworks.
+
+For the full context, see [CONTRIBUTING.md](CONTRIBUTING.md).
+
+# The Axioms
+
+Two axioms is all the community requires to bootstrap a decent behavioral profile and morality. The axioms are technical, and laid out in "CONTRIBUTING.md", the implications and proper (polite, actionable, etc.) implementation-impplications will be covered, here, as they pertain to the community the Code of Conduct binds.
 
 We **recommend** both critical and empathic thinking, and, indeed, **urge** grounding in thermodynamic, if no-other, global-shared-realities, beyond, whatever, could be considered-to-be _your own_. 
 
@@ -66,3 +84,9 @@ Consequence: A temporary ban from any sort of interaction or public communicatio
 Community Impact: Demonstrating a pattern of violation of community standards, including sustained inappropriate behavior, harassment of an individual, or aggression toward or disparagement of classes of individuals.
 
 Consequence: A permanent ban from any sort of public interaction within the community.
+
+---
+
+## Final Note
+
+This Code of Conduct is a social & *moral* document, grounded in the *epistemological* framework of the project. For the technical and legal (ontological) details—including the NOTICE invariant, the NP-hard reversal guarantee, and the quantum/otherwise edge cases, see [CONTRIBUTING.md](CONTRIBUTING.md).
