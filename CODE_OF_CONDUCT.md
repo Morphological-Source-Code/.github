@@ -45,9 +45,9 @@ For the full context, see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 # The Axioms
 
-Two axioms is all the community requires to bootstrap a decent behavioral profile and morality. The axioms are technical, and laid out in "CONTRIBUTING.md", the implications and proper (polite, actionable, etc.) implementation-impplications will be covered, here, as they pertain to the community the Code of Conduct binds.
+Two axioms is all the community requires to bootstrap a decent behavioral profile and morality. The axioms are technical, and laid out in "CONTRIBUTING.md", the implications and proper (polite, actionable, etc.) implementation-implications will be covered, here, as they pertain to the community the Code of Conduct binds, and 'good' behavior, therein.
 
-We **recommend** both critical and empathic thinking, and, indeed, **urge** grounding in thermodynamic, if no-other, global-shared-realities, beyond, whatever, could be considered-to-be _your own_. 
+We **recommend** both critical and empathic thinking, and, indeed, **urge** grounding in thermodynamic, if no-other, global-shared-realities, beyond, whatever, could be considered-to-be _your own_. Regardless of one's understanding, thermodynamic accountancy will hold.
 
 We do not anticipate a moral or philosophical means of deviating from this principle becoming realistic in the near-future, but we **will** work to keep you apprised of any changes to such criticality(s) as project: 'ethics', 'epistemological-behavioral-analysis', 'alignment', and the conventional, concept of the [LICENSE](/LICENSE).
 
