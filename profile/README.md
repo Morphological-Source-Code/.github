@@ -5,7 +5,7 @@ license-doc(s)+dist: CC BY-ND-SA 4.0
 license-code+file(s): BSD 3-Clause
 root: "/Morphological-Source-Code/.github"
 name: "README.md"
-version: 0.2.55
+version: 0.2.56
 aliases:
   - msc
   - qsd
@@ -639,7 +639,7 @@ In short, a quine is like the anti-Hermitian conjugate of a system, but instead 
 Self-consistency does not preclude motility, nor multi-scale ontological 'action' (imaginary-valued, in other words); correspondence across time and space is verifiable by Quineic and/or special conformal logic (see Maldacena, 1995 on AdS/CFT).
 
 # Repos, Copyright
-Release repos:
+(v0.x.x)Release repos:
 
     © 2025-26 https://gitlab.com/morphological/source/code
     © 2025-26 https://github.com/Morphological-Source-Code
@@ -649,3 +649,7 @@ Historical:
 
     © 2024-26 Phovos https://github.com/Phovos/
     © 2023-26 Moonlapsed https://github.com/MOONLAPSED/
+
+(v1.x.x)Release repos:
+
+    Not guaranteed to be on this platform, specifically, certain contrivances ado with CICD/others will break backwards compatability. Plan accordingly, if you see a future using MSC&QSD (Release).
