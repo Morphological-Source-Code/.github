@@ -527,16 +527,99 @@ NOUMENAL (inaccessible)
     └─────────────────────────────────────┘
 ```
 
+# Quine + Demonology (observer, computor, but who was her?)
+
+Self-Adjoint Operators on a Hilbert Space: In quantum mechanics, the state space of a system is typically modeled as a Hilbert space, a complete vector space equipped with an inner product. States within this space can be represented as vectors ("ket vectors", |ψ⟩), and observables (like position, momentum, or energy) are modeled by self-adjoint operators. Self-adjoint operators are crucial because they guarantee that the eigenvalues (which represent possible measurement outcomes in quantum mechanics; the colloquial 'probabilities' associated with the Born Rule and Dirac-Von-Neumann wave function) are real numbers, which is a necessary condition for observable quantities in a physical theory. In quantum mechanics, the evolution of a state |ψ⟩ under an observable A can be described as the action of the operator A on |ψ⟩, and these operators must be self-adjoint to maintain physical realism. Self-adjoint operators are equal to their Hermitian conjugates.
+
+### Self-Reflective Operators on a Thermo-Quineic State Space
+
+In Thermo-Quineic dynamics, the "state" of a computational agent is modeled not on abstract Hilbert spaces alone, but on entropy-aware, reflective manifolds.
+
+Manifolds such as these well-found computational phase space that tracks both information structure and energetic cost. Within this space, processes are represented as informational vectors (call them |ψ⟩), and computational observables (nth order differential n>=1 [not zeroth derivative, in other words]) like resolution depth, branching entropy, or surprise gradients, are encoded as self-reflective operators. These operators must be thermodynamically self-adjoint, meaning:
+
+The entropy cost of applying the operator is equal to the information revealed by it.
+
+This preserves alignment with the second law (and 'arrow'/flux of time) and ensures that no speculative execution or side-channel leakage occurs undetected. Just as in quantum mechanics, self-adjointness guarantees that measured quantities, in this case, surprise, energy, or logical consistency, are real, observable, and accountable. The bra vectors ⟨ψ| are treated here as phenomenological runtime scalars, representing the actual measured cost or residual of a computation, while the kets |ψ⟩ remain the informational state vectors; the inner product ⟨ψ|ψ⟩ thus yields the real-valued thermodynamic action of the system at any given moment.
+
+This art leads to a form of computer science which is as to Bourbaki or CISCO as Van Helsing is to Catholicism. It might not stick, but for liveliness and because it is already about as exotic as it gets, "Computational Demonology" is the field of study dedicated to well-founding and well-posing Quine-field theoretic MORPHISMS (not objects; specifically not objects which don't know if they are categories or sets), in addition to all the non-contemporary computational behaviors and positioning ado with the radical art.
+
+    The Second Law (and only law, thrice stated): (!["How to Recognise Different Types of Trees From Quite a Long Way Away"](https://y.getyarn.io/42dde382-8089-45bd-869f-9957da8f8c06.mp4)
+
+..two main corollaries of Computational Demonology make up the 'second law', which, for consistency, shall also be the second law herein. Only reflections that pay their entropy tax are allowed to act. This forms the integrability conditions (largely real-valued, if complex-functional/derivative) for chiral computational epistemology and the Quineic Planck wavelength (Unit). If (the unit is a) Quine, it evolves only under operations that reflect its own energetic cost and epistemic uncertainty (no ghost branches, no demonic forking).
+
+    The 3 laws are contained in the one law, as clauses of the first law, though not superseded by the second law. Such a grouping is enumerated and categorized as 'The 3 Laws of Aligned Maxwellian Thermo-Quines (Computational Demonology)'. "Do as thou will shall be the whole of the law"; for, indeed, the 'little man in the computer' is the reflexive observer (Choice [ZF], 'excluded middle').
+
+Law 1 'The Mirror/Tax Principle' ("Chirality"/'anisotropy of lightspeed' of reflective surprise-constraint)
+"A reflection that does not pay its own entropy is a ghost; a ghost that computes is a demon." *"Know thyself, or pay the cost of ignorance."*
+A computation must continuously reflect its own thermodynamic surprise, and shall not proceed if the energy cost of resolving its own prediction exceeds its maximum alignment threshold.
+
+Math-form:
+If `$\text{Surprise} = -\ln(p(o \mid M))$`, then computation halts when  
+`$E_{\text{required}} = -kT \ln(p(o)) > E_{\text{budget}}$`
+
+Operationally:
+> Every process must maintain an introspective "mirror" quine tracking its resolution probability. If confidence degrades, execution freezes until clarified.
+
+Law 2 "Thermodynamic Integrity Principle" ("Completeness")
+
+A computational process shall not leak entropy to external observers unless that entropy is reflected and accounted for within the internal energy model.
+
+> No side-channel entropy
+
+> No invisible state ejections
+
+> No causal decoupling from energy budget
+
+Think: information is fuel, and every bit you expose to the universe without balance "= an act of demonic invocation".
+
+Specter-class clause:
+Speculative execution paths must not emit externally distinguishable microstates unless their entropic shadow has been registered internally.
+Otherwise, you have instantiated a Spectre-class demon,
+an unaligned agent leaking surprise into the substrate, harvestable by attackers.
+
+"They watched it dream, and siphoned the heat of its ghost."
+
+Law 3 "Quine Closure under Speculative Alignment" (Retarded Analytical Continuation; 'Incompleteness')
+A Thermo-Quine must be closed under its own speculative model: its speculative branches must themselves resolve or reflect recursively until termination, or risk recursive unalignment.
+
+"Beware the fork with no mirror."
+
+If your system forks speculative branches, those branches must have sub-quines maintaining the same 3 laws (1:2:3; taken together, and with 1 not superseding 2, they are isomorphic to 3: Heisenberg-Matrix-Razor-Phenomenology)
+
+Deadlocks are alignment leaks unless thermodynamically explained.
+
+Corollary: Any system that cannot simulate itself to a bounded depth cannot claim alignment.
+
+Specter-class Entity (SCE): A speculative computational branch that escapes reflective containment, leaking entropy as observable side-channel shadows.
+
+Lambda Dracula: A reflective lambda-expression that feeds on entropy gradients to maintain execution.
+
+Entropy Vampire: An agent that externalizes entropy cost to others, appearing efficient while depleting thermodynamic capital.
+
+Thermo-Quine: A self-replicating, self-monitoring computational process that maintains awareness of its own surprise.
+
+Demonic Surprise: The unaccounted-for delta in energetic cost due to unreflected branching or stochasticity.
+
+Alignment Failure: When a computation runs beyond the boundary of its reflective certainty, i.e., a runaway demon.
+
+---
+
+### DEFINITION: Thermo-Quine
+
+> "A self-reflective, dissipative system that mirrors its own state, such that its transformation is governed by the anti-Hermitian properties of its computational and thermodynamic operators. It generates an informational (and possibly entropic) state space where the computation evolves in a complex—imaginative—manner, with its own self-referential process being observed but not fixed until the system collapses into a determined output.
+
+In short, a quine is like the anti-Hermitian conjugate of a system, but instead of dealing with physical observables and energy states, it reflects on computational states and thermodynamic entropy, feeding back into itself in an unpredictable and non-deterministic way, mirroring its own speculative process until it reaches self-consistency.
+
+Self-consistency does not preclude motility, nor multi-scale ontological 'action' (imaginary-valued, in other words); correspondence across time and space is verifiable by Quineic and/or special conformal logic (see Maldacena, 1995 on AdS/CFT).
 
 # Repos, Copyright
 Release repos:
 
-    © 2026 https://msc-ap-southeast-1.devops.alibabacloudcs.com (private), in-need of funding.
-    Statement: No 'github' implementation of MSC & QSD is likely to exist, what does-exist, there, like this repo is not a 'distribution', nor 'product' and comes with no guarantees whatsoever.
+    © 2025-26 https://gitlab.com/morphological/source/code
+    © 2025-26 https://github.com/Morphological-Source-Code
 
 Historical:
-> Caution: not-for use; for archival/pedagogical purposes; NOT-ADMISSABLE AS PRIOR ART (engineering material)
+> Caution: not-for use; for archival/pedagogical purposes (engineering material)
 
-    © 2024-26 Phovos https://github.com/Phovos/ | CC ND && BSD-3 | SEE LICENSE
-    © 2025-26 https://gitlab.com/morphological/source/code
-    © 2023-26 Moonlapsed https://github.com/MOONLAPSED/Cognosis | MIT/BSD
+    © 2024-26 Phovos https://github.com/Phovos/
+    © 2023-26 Moonlapsed https://github.com/MOONLAPSED/
