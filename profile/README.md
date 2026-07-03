@@ -1,16 +1,36 @@
 ---
-tag: [Public Statements: on MSC & QSD, Morphological Source Code, Quinic Statistical Dynamics, version: 2.50]
-
-Licenses: CC ND & BSD-3
-copyright: [Ⓟ© 2026 Quineic(SP): MSC&QSD(TM) https://github.com/Morphological-Source-Code, (not-admissable as prior-art; TM/SP-PEND Ⓟ 2026)]
-
-copyright2: |
-
-  © 2025-26 Phovos https://github.com/Phovos/Morphological-Source-Code
-copyright3: |
-
-  © 2023-26 Moonlapsed https://github.com/MOONLAPSED/Cognosis
-
+tags: [Morphological-Source-Code, Quineic Statistical Dynamics, holography, motility, dynamics]
+copyright: "Ⓟ© 2026 Morphological Source Code & Quineic Statistical Dynamics"
+license-doc(s)+dist: CC BY-ND-SA 4.0
+license-code+file(s): BSD 3-Clause
+root: "/Morphological-Source-Code/.github"
+name: "README.md"
+version: 0.2.55
+aliases:
+  - msc
+  - qsd
+  - quine
+  - morphological-source-code
+  - quineic-statistical-dynamics
+topics:
+  - ads/cft
+  - gauge-theory
+  - spectral&complex-analysis
+"copyright_attribution": >
+  (1) © 2023-2026 Moonlapsed; https://github.com/MOONLAPSED/cognosis
+  (2) © 2024-2026 Phovos; https://github.com/Phovos/Morphological-Source-Code
+"Maintained, distributed and © 2026 `MOONLAPSED` (MOONLAPSED@gmail.com)": >
+    (1) https://gitlab.com/morphological/source/code
+    (2) https://github.com/Morphological-Source-Code
+    (3) https://reddit.com/r/morphological
+"description": >
+    This project employs a layered licensing approach governed by the incl. Morphological LICENSE;
+    The architecture (MSC&QSD) distinguishes between:
+      (1) Individual source "files", like this one (BSD 3-Clause)
+      (2) Distributed collective "works" (CC BY-NC-SA 4.0)
+      (3) Quine-generated "outputs" (CC0 1.0 + mandatory thermodynamic ledger)
+      (4) Private "ensemble(s)"/"configuration(s)" are operator's IP, until revealed/released.
+        - Privacy of your Quineic output is, therefore, your prerogative. CC0 carries, after 'escape'/release.
 ---
 <!-- For Markdown+Yaml interop, the following should be in the 'frontmatter', above, however it doesn't work on github: link: "[/profile/README.md](/profile/README.md)"-->
 <!-- This document uses YAML front matter for metadata management in a third-party tool not git: 
@@ -32,7 +52,7 @@ copyright3: |
       ---
       ``` """
 
-disclaimer:
+Disclaimer:
   Broad-strokes, painting cultural, scientific, philosophical,
   and historiographical analogy and abstraction are layered onto
   the page with the goal of instrumenting the author's own
@@ -41,26 +61,31 @@ disclaimer:
   because this is not authoritative in any fashion outside of this
   very architecture.
 -->
-# Morphological-Source-Code (MSC/QSD)
 
-Organizational-vehicle for deploying Morphological Source Code to to the world of work and finance, business logic and the contemporary market.
+# Morphological Source Code (MSC/QSD)
 
-**A CPython standard-library-only framework for morphological computation with hermitian type semantics**
-**Welcome to the root of the Morphological Source Code (MSC) repository!**
+- (1) [Gitlab](https://gitlab.com/morphological/source/code)
+- (2) [Github](https://github.com/Morphological-Source-Code)
+
+These 'repositories' and 'art' are Share-Alike Non-Commercial (the source code file(s), themselve(s), carry BSD 3-Clause):
+
+[![CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC--BY--NC--SA-lightgrey?style=for-the-badge)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 [![Python 3.14+](https://img.shields.io/badge/python-3.14+-blue.svg)](https://www.python.org/downloads/)
-[![License: BSD-3 & CC-BY-ND](https://img.shields.io/badge/license-BSD3%20%26%20CC--BY--ND-green.svg)](LICENSE)
-[![Status: Experimental](https://img.shields.io/badge/Status-Experimental-red.svg)](https://github.com/Quineic/Source)
+[![Status: Experimental](https://img.shields.io/badge/Status-Experimental-red.svg)](https://github.com/Phovos/Morphological-Source-Code)
+[![Code+File(s): BSD 3-Clause](https://img.shields.io/badge/Code-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
-CommunityLinks: [r/Morphological](https://www.reddit.com/r/Morphological/) | [Phovos@X](https://x.com/Phovso) | [Phovos@youtube](https://www.youtube.com/@phovos) | [Code of Conduct](https://github.com/Quineic/.github/CODE_OF_CONDUCT.md) | NEW: [r/Quine](https://www.reddit.com/r/Quine); 
+CommunityLinks: [r/Morphological](https://www.reddit.com/r/Morphological/) | [Phovos@youtube](https://www.youtube.com/@phovos) | [r/Quine](https://www.reddit.com/r/Quine); | [production gitter](https://app.gitter.im/#/room/#production:gitter.im) | [Code of Conduct](https://github.com/Phovos/.github/CODE_OF_CONDUCT.md)
 
-> Ⓟ© 2026 Quineic(SP): MSC&QSD(TM) http://github.com/Morphological-Source-Code |  CC ND && BSD-3 | SEE LICENSE (not-admissable as prior-art; TM/SP-PEND Ⓟ 2026)
+## LEGACY copyright
 
-> © 2024-26 Phovos https://github.com/Phovos/Morphological |  CC ND && BSD-3 | SEE LICENSE
+> <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;"> © 2024-2026
+<a href="https://github.com/Phovos">MSC & QSD</a> © licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en">CC BY-ND-SA 4.0</a> by <a href="https://github.com/Phovos">Phovos</a> <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;">
 
-> © 2023-26 Moonlapsed https://github.com/MOONLAPSED/Cognosis | MIT/BSD
+> <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;"> © 2023-2026
+<a href="https://github.com/MOONLAPSED/">MSC & QSD</a> © licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en">CC BY-ND-SA 4.0</a> by <a href="https://github.com/MOONLAPSED/">MOONLAPSED</a> <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;">
 
-### Video Essay/RFC © 2024 
+## Video Essay/RFC © 2024 
 [![Ontological Relativity & AI Singularity: Convening Epistemic Dualities and Morphological Source Code](http://img.youtube.com/vi/ecQevCn-fcI/0.jpg)](https://www.youtube.com/watch?v=ecQevCn-fcI "Ontological Relativity & AI Singularity: Convening Epistemic Dualities and Morphological Source Code")
 
 ```md
@@ -554,8 +579,9 @@ Law 1 'The Mirror/Tax Principle' ("Chirality"/'anisotropy of lightspeed' of refl
 A computation must continuously reflect its own thermodynamic surprise, and shall not proceed if the energy cost of resolving its own prediction exceeds its maximum alignment threshold.
 
 Math-form:
-If `$\text{Surprise} = -\ln(p(o \mid M))$`, then computation halts when  
-`$E_{\text{required}} = -kT \ln(p(o)) > E_{\text{budget}}$`
+
+    If Surprise = -ln(p(o | M)), then computation halts when
+    E_required = -kT ln(p(o)) > E_budget
 
 Operationally:
 > Every process must maintain an introspective "mirror" quine tracking its resolution probability. If confidence degrades, execution freezes until clarified.
