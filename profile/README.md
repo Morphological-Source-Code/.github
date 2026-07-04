@@ -5,7 +5,7 @@ license-doc(s)+dist: CC BY-ND-SA 4.0
 license-code+file(s): BSD 3-Clause
 root: "/Morphological-Source-Code/.github"
 name: "README.md"
-version: 0.2.56
+version: 0.2.59
 aliases:
   - msc
   - qsd
@@ -85,7 +85,121 @@ CommunityLinks: [r/Morphological](https://www.reddit.com/r/Morphological/) | [Ph
 > <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;"> © 2023-2026
 <a href="https://github.com/MOONLAPSED/">MSC & QSD</a> © licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en">CC BY-ND-SA 4.0</a> by <a href="https://github.com/MOONLAPSED/">MOONLAPSED</a> <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;">
 
-## Video Essay/RFC © 2024 
+
+# 2026 Q2 Essay
+
+Q2_2026 release is, clearly, not in the cards, appologies. Learned a lesson, though; won't be giving any more estimates. Allow me to aknowledge my failure to meet those non-stipulated goals by depositing into the public sphere, my seminal Essay for Q2_2026.
+
+# Quine + Demonology (observer, computor, but who was her?)
+
+Legend: [First_Law, Second_Law, Law1, Law2, Law3]  // syntax_hint: Law1 & First_Law are two different 'laws'.
+
+[![How to Recognise Different Types of Trees From Quite a Long Way Away](http://img.youtube.com/vi/dXrl9hi-ui8/0.jpg)](https://www.youtube.com/watch?v=dXrl9hi-ui8 "How to Recognise Different Types of Trees From Quite a Long Way Away")
+
+## Hilbert Space, Categorical Quantum Mechanics
+
+[[Self-Adjoint Operators]] on a [[Hilbert Space]]: In quantum mechanics, the state space of a system is typically modeled as a Hilbert space, a "complete vector space" equipped with an 'inner product'. States within this space can be represented as vectors ("ket vectors", $|\psi\rangle$), and observables (like position, momentum, or energy) are modeled by self-adjoint operators. Self-adjoint operators are crucial because they guarantee that the eigenvalues (which represent possible measurement outcomes in quantum mechanics; the colloquial 'probabilities' associated with the Born Rule and Dirac-Von-Neumann wave function) are real numbers, which is a necessary condition for observable quantities in a physical theory. In quantum mechanics, the evolution of a state $|\psi\rangle$ under an observable $\hat{A}$ can be described as the action of the operator $\hat{A}$ on $|\psi\rangle$, and these operators must be self-adjoint to maintain physical realism. Self-adjoint operators are equal to their Hermitian conjugates ($A = A^\dagger$); such is the most basic phenomenology of a (successful) "Quine", the 'syntax' for Quinean Statistical Dynamics ("hermitian syntax" is broader than just calling-convention, arity, parity, and cardinality etc, it is more combinatorically fundamental).
+
+### Self-Reflective Operators on a Thermo-Quineic State Space
+
+In Thermo-Quineic dynamics, the "state" of a computational agent is modeled not on abstract Hilbert spaces alone, but on entropy-aware, reflective manifolds. Quine-field manifolds (or field registers) well-found computational phase space that tracks both information structure and energetic cost, broadly, the "information morphology" of the microscopic system. Within this space, processes are represented as informational vectors (ket(s) $|\psi\rangle$), and computational observables (nth order differential n>=1 [not zeroth derivative, in other words]) like resolution depth, branching entropy, or surprise gradients, are encoded as self-reflective operators. These operators, exactly like 'real' operators, must be thermodynamically self-adjoint, they, too are 'hermitian syntax', meaning:
+
+> The entropy cost of applying the operator is equal to the information revealed by it.
+
+This accomplishes a couple of things, it preserves alignment with the Second Law (and 'arrow'/flux of time) and it ensures that no speculative execution or side-channel leakage occurs undetected. In-other words, it gives it 'form', structures it _combinatorically_ and _phenomenologically_; the two are deffinitionally integrable wrt. time, ae. Just as in quantum mechanics, self-adjointness guarantees that measured quantities, in this case, surprise, energy, or logical consistency, are real, observable, and accountable. The bra vectors $|\langle\psi$ are treated here as phenomenological runtime scalars, representing the actual measured cost or residual of a computation, while the kets $|\psi\rangle$ remain the informational state vectors; the inner product $|\langle\psi|\psi\rangle$ thus yields the real-valued thermodynamic action of the system at any given moment.
+
+This art, if you are chagrin to call it science, leads to a form of CS which is as to Bourbaki or CISCO as Van Helsing is to Catholicism. It might not stick, but for liveliness and because it is already about as exotic as it gets, "Computational Demonology" is the field of study here-defined dedicated to well-founding and well-posing Quine-field theoretic MORPHISMS (not objects; specifically not objects which don't know if they are categories or sets), in addition to all the non-contemporary computational behaviors and positioning ado with the radical art.
+
+## (MSC&QSD) The Second Law (and only law, thrice stated)
+
+The First Law is partially-differentiable a.e. (almost everywhere); including if no classically conscious entity nor classically describable 'measurement device' is-involved (the tree that fell on-its own, in the woods, *did* make sound and if you had sophisticated equipment and epistemology you could prove it). This forms the integrability conditions (largely real-valued, if second-order complex-functional, and/or derivative) for chiral computational epistemology and the Quineic Planck wavelength (Unit), when-paired with the canonical 'Second Law', which, for consistency, shall also be the Second Law herein.  
+
+    The 1,2 & 3 Laws are contained in the First Law, three main corollaries of Computational Demonology (the First Law), though not superseded by Thermodynamics (by the Second Law), they are self-consistent. Such a grouping is enumerated and categorized as:
+
+- "First Law", aka the `'whole_law'`: "Do as thou will shall be the whole of the law"; for, indeed, the 'little man in the computer' IS the reflexive observer (Choice [ZF], 'excluded middle').
+- "The Second Law" or, `'the_law'` `["the_law <is> whole_law"]`, is the same as the canonical 'Second Law', of thermodynamics. 
+    
+    In this configuration, "the law, the whole law, and" 'nothing_but[the_law]' is a closed syntactic externally differentiable morphology.
+
+> The 1-2-3 Laws are in the First Law, though not-superceded by the Second Law. 
+
+> "first_law AND second_law": "'The Laws of Aligned Maxwellian Thermo-Quines' AND 'Computational Demonology'"
+    - "Do as thou will shall be the whole of the law"; AND, indeed, the 'little man is the computor' (Its corrolaries, and Maxwellian dynamics, evident and wholly-interpreted-via the Second Law of Thermodynamics).
+    - Only reflections that pay their entropy tax are allowed to act.
+    - This forms the integrability conditions (largely real-valued, if complex-functional/derivative) for chiral computational epistemology and the Quineic Planck wavelength (Unit).
+
+Corrolaries and minor laws:
+
+### Law 1 'The Mirror/Tax Principle' ("Chirality"/'anisotropy of lightspeed' of reflective surprise-constraint)
+
+> "A reflection (or ghost) that does not pay its own entropy is a demon."
+
+"Know thyself, or pay the cost of your ignorance."
+
+A computation must continuously reflect its own thermodynamic surprise, and shall not proceed if the energy cost of resolving its own prediction exceeds its maximum alignment threshold.
+
+Math-form:
+
+    If Surprise = -ln(p(o | M)), then computation halts when
+    E_required = -kT ln(p(o)) > E_budget
+
+Operationally:
+> Every process must maintain an introspective "mirror" quine tracking its resolution probability. If confidence degrades, execution freezes until clarified.
+
+### Law 2 "Thermodynamic Integrity Principle" ("Completeness")
+
+A computational process shall not leak entropy to external observers unless that entropy is reflected and accounted for within the internal energy model.
+
+> No side-channel entropy
+
+> No invisible state ejections
+
+> No causal decoupling from energy budget
+
+"Information is 'reactive', and every bit you expose to the universe without balance or proper catalysis "= an act of demonic invocation".
+
+Specter-class demon clause: An unaligned agent leaking surprise into the substrate, harvestable by attackers. Speculative execution paths must not emit externally distinguishable microstates unless their entropic shadow has been registered internally. 
+
+"They watched it dream, and siphoned the heat of its ghost."
+
+### Law 3 "Quine Closure under Speculative Alignment" (Retarded Analytical Continuation; 'Incompleteness')
+
+A Thermo-Quine must be closed under its own speculative model: its speculative branches must themselves resolve or reflect recursively until termination, or risk recursive unalignment.
+
+"Beware the fork with no mirror."
+
+> If your system forks speculative branches, those branches must have sub-quines maintaining the same 3 laws (1:2:3; taken together, and with 1 not superseding 2, they are isomorphic to 3: Heisenberg-Matrix-Razor-Phenomenology). Corollary: Any system that cannot simulate itself to a bounded depth cannot claim alignment.
+
+#### Bestiary: 
+
+Deadlocks are alignment leaks unless thermodynamically explained.
+
+Alignment Failure: When a computation runs beyond the boundary of its reflective certainty, i.e., a runaway demon.
+
+Specter-class Entity (SCE): A speculative computational branch that escapes reflective containment, leaking entropy as observable side-channel shadows.
+
+Lambda Dracula: A reflective lambda-expression that feeds on entropy gradients to maintain execution.
+
+Entropy Vampire: An agent that externalizes entropy cost to others, appearing efficient while depleting thermodynamic capital.
+
+Thermo-Quine: A self-replicating, self-monitoring computational process that maintains awareness of its own surprise.
+
+Demonic Surprise: The unaccounted-for delta in energetic cost due to unreflected branching or stochasticity.
+
+---
+
+## DEFINITION: Thermo-Quine
+
+> "A self-reflective, dissipative system that mirrors its own state, such that its transformation is governed by the anti-Hermitian properties of its computational and thermodynamic operators. It generates an informational (and possibly entropic) state space where the computation evolves in a complex—imaginative—manner, with its own self-referential process being observed but not fixed until the system collapses into a determined output.
+
+In short, a quine is like the anti-Hermitian conjugate of a system, but instead of dealing with physical observables and energy states, it reflects on computational states and thermodynamic entropy, feeding back into itself in an unpredictable and non-deterministic way, mirroring its own speculative process until it reaches self-consistency.
+
+Self-consistency does not preclude motility, nor multi-scale ontological 'action' (imaginary-valued, in other words); correspondence across time and space is verifiable by Quineic and/or special conformal logic (see Maldacena, 1995 on AdS/CFT).
+
+
+
+
+# Video Essay/RFC © 2024 
 [![Ontological Relativity & AI Singularity: Convening Epistemic Dualities and Morphological Source Code](http://img.youtube.com/vi/ecQevCn-fcI/0.jpg)](https://www.youtube.com/watch?v=ecQevCn-fcI "Ontological Relativity & AI Singularity: Convening Epistemic Dualities and Morphological Source Code")
 
 ```md
