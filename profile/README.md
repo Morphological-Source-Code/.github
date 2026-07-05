@@ -85,6 +85,8 @@ CommunityLinks: [r/Morphological](https://www.reddit.com/r/Morphological/) | [Ph
 > <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;"> © 2023-2026
 <a href="https://github.com/MOONLAPSED/">MSC & QSD</a> © licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en">CC BY-ND-SA 4.0</a> by <a href="https://github.com/MOONLAPSED/">MOONLAPSED</a> <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;">
 
+[![neverNeverLand.jpg](/profile/.media/image.jpg)
+
 # 2026 Q2 Essay
 
 Q2_2026 release is, clearly, not in the cards, appologies. Learned a lesson, though; won't be giving any more estimates. Allow me to aknowledge my failure to meet those non-stipulated goals by depositing into the public sphere, my seminal Essay for Q2_2026.
@@ -93,7 +95,9 @@ Q2_2026 release is, clearly, not in the cards, appologies. Learned a lesson, tho
 
 Legend: [First_Law, Second_Law, Law1, Law2, Law3]  // syntax_hint: Law1 & First_Law are two different 'laws'.
 
-[![How to Recognise Different Types of Trees From Quite a Long Way Away](http://img.youtube.com/vi/dXrl9hi-ui8/0.jpg)](https://www.youtube.com/watch?v=dXrl9hi-ui8 "How to Recognise Different Types of Trees From Quite a Long Way Away")
+
+[![How to Recognise Different Types of Trees From Quite a Long Way Away 1/2](http://img.youtube.com/vi/dXrl9hi-ui8/0.jpg)](/profile/.media/flyingCirgus_No1_theLarch.mp4)
+
 
 ## Hilbert Space, Categorical Quantum Mechanics
 
@@ -196,10 +200,9 @@ In short, a quine is like the anti-Hermitian conjugate of a system, but instead 
 Self-consistency does not preclude motility, nor multi-scale ontological 'action' (imaginary-valued, in other words); correspondence across time and space is verifiable by Quineic and/or special conformal logic (see Maldacena, 1995 on AdS/CFT).
 
 
+[![How to Recognise Different Types of Trees From Quite a Long Way Away 2/2](http://img.youtube.com/vi/dXrl9hi-ui8/0.jpg)](/profile/.media/identifying_trees_from_quite_far_away.mp4)
 
-https://github.com/user-attachments/assets/8595626d-15f3-4156-8cbc-d3aaec6e03b3
-
-
+<!-- https://github.com/user-attachments/assets/8595626d-15f3-4156-8cbc-d3aaec6e03b3 -->
 
 # Video Essay/RFC © 2024 
 [![Ontological Relativity & AI Singularity: Convening Epistemic Dualities and Morphological Source Code](http://img.youtube.com/vi/ecQevCn-fcI/0.jpg)](https://www.youtube.com/watch?v=ecQevCn-fcI "Ontological Relativity & AI Singularity: Convening Epistemic Dualities and Morphological Source Code")
