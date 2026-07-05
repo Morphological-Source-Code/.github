@@ -35,10 +35,45 @@ alias ll='ls -alF --color=auto'
 alias lll='ls -A --color=auto'
 alias l='ls -CF --color=auto'
 alias kex='kex --win -s'
-# ==========================================================
-# git Configurations
-# ==========================================================
-# Git Aliases, see .gitconfig for more info & aliases
+# -------- Fossil Aliases (The Basics) --------
+alias fs='fossil status'
+alias fst='fossil stash'
+alias fsp='fossil stash pop'
+alias fsl='fossil stash list'
+alias fdiff='fossil diff --color'
+alias fdf='fossil diff --color-words'
+alias fl='fossil timeline'
+alias fll='fossil timeline -n 20'
+alias fco='fossil checkout'
+alias fup='fossil update'
+alias fcom='fossil commit'
+alias fcm='fossil commit -m'
+alias fpush='fossil push'
+alias fpull='fossil pull'
+alias fsync='fossil sync'
+alias fclone='fossil clone'
+alias finit='fossil init'
+alias fopen='fossil open'
+alias fclose='fossil close'
+alias finfo='fossil info'
+alias fcat='fossil cat'
+alias fadd='fossil add'
+alias faddrm='fossil add --remove'
+alias frm='fossil rm'
+alias fmv='fossil mv'
+alias frevert='fossil revert'
+alias fclean='fossil clean'
+alias fscrub='fossil scrub'
+alias ftag='fossil tag'
+alias fbranch='fossil branch'
+alias fmerge='fossil merge'
+alias fconf='fossil config'
+alias fuser='fossil user'
+alias fcap='fossil capabilities'
+alias fverify='fossil verify'
+alias fpolicy='fossil policy'
+
+# --- git Aliases ---
 alias gs='git status'
 alias gca='git commit -a'
 alias gcam='git commit -am'
@@ -74,96 +109,7 @@ export FOSSIL_WORK_DIR="$HOME/workspaces"
 # Ensure directories exist
 mkdir -p "$FOSSIL_HOME" "$FOSSIL_REPO_DIR" "$FOSSIL_WORK_DIR" 2>/dev/null
 
-# -------- Fossil Aliases (The Basics) --------
-alias fs='fossil status'
-alias fst='fossil stash'
-alias fsp='fossil stash pop'
-alias fsl='fossil stash list'
-alias fdiff='fossil diff --color'
-alias fdf='fossil diff --color-words'
-alias fl='fossil timeline'
-alias fll='fossil timeline -n 20'
-alias fco='fossil checkout'
-alias fup='fossil update'
-alias fcom='fossil commit'
-alias fcm='fossil commit -m'
-alias fpush='fossil push'
-alias fpull='fossil pull'
-alias fsync='fossil sync'
-alias fclone='fossil clone'
-alias finit='fossil init'
-alias fopen='fossil open'
-alias fclose='fossil close'
-alias finfo='fossil info'
-alias fcat='fossil cat'
-alias fadd='fossil add'
-alias faddrm='fossil add --remove'
-alias frm='fossil rm'
-alias fmv='fossil mv'
-alias frevert='fossil revert'
-alias fclean='fossil clean'
-alias fscrub='fossil scrub'
-alias ftag='fossil tag'
-alias fbranch='fossil branch'
-alias fmerge='fossil merge'
-alias fconf='fossil config'
-alias fuser='fossil user'
-alias fcap='fossil capabilities'
-alias fverify='fossil verify'
-alias fpolicy='fossil policy'
-
-
-# ==========================================================
-# FOSSIL SCM - First Class Support
-# ==========================================================
-
-# -------- Core Environment --------
-export FOSSIL_HOME="$HOME/.fossil"
-export FOSSIL_REPO_DIR="$HOME/repos"
-export FOSSIL_WORK_DIR="$HOME/workspaces"
-
-# Ensure directories exist
-mkdir -p "$FOSSIL_HOME" "$FOSSIL_REPO_DIR" "$FOSSIL_WORK_DIR" 2>/dev/null
-
-# -------- Fossil Aliases (The Basics) --------
-alias fs='fossil status'
-alias fst='fossil stash'
-alias fsp='fossil stash pop'
-alias fsl='fossil stash list'
-alias fdiff='fossil diff --color'
-alias fdf='fossil diff --color-words'
-alias fl='fossil timeline'
-alias fll='fossil timeline -n 20'
-alias fco='fossil checkout'
-alias fup='fossil update'
-alias fcom='fossil commit'
-alias fcm='fossil commit -m'
-alias fpush='fossil push'
-alias fpull='fossil pull'
-alias fsync='fossil sync'
-alias fclone='fossil clone'
-alias finit='fossil init'
-alias fopen='fossil open'
-alias fclose='fossil close'
-alias finfo='fossil info'
-alias fcat='fossil cat'
-alias fadd='fossil add'
-alias faddrm='fossil add --remove'
-alias frm='fossil rm'
-alias fmv='fossil mv'
-alias frevert='fossil revert'
-alias fclean='fossil clean'
-alias fscrub='fossil scrub'
-alias ftag='fossil tag'
-alias fbranch='fossil branch'
-alias fmerge='fossil merge'
-alias fconf='fossil config'
-alias fuser='fossil user'
-alias fcap='fossil capabilities'
-alias fverify='fossil verify'
-alias fpolicy='fossil policy'
-
-# -------- Enhanced Fossil Functions --------
+# -------- Fossil Functions --------
 
 # fsi - Fossil Status with Info
 fsi() {
