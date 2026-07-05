@@ -195,7 +195,11 @@ In short, a quine is like the anti-Hermitian conjugate of a system, but instead 
 
 Self-consistency does not preclude motility, nor multi-scale ontological 'action' (imaginary-valued, in other words); correspondence across time and space is verifiable by Quineic and/or special conformal logic (see Maldacena, 1995 on AdS/CFT).
 
-![]((http://img.youtube.com/vi/dXrl9hi-ui8/0.jpg)](https://github.com/Morphological-Source-Code/.github/blob/main/profile/identifying_trees.mp4 "How to Recognise Different Types of Trees From Quite a Long Way Away")
+
+
+https://github.com/user-attachments/assets/8595626d-15f3-4156-8cbc-d3aaec6e03b3
+
+
 
 # Video Essay/RFC © 2024 
 [![Ontological Relativity & AI Singularity: Convening Epistemic Dualities and Morphological Source Code](http://img.youtube.com/vi/ecQevCn-fcI/0.jpg)](https://www.youtube.com/watch?v=ecQevCn-fcI "Ontological Relativity & AI Singularity: Convening Epistemic Dualities and Morphological Source Code")
