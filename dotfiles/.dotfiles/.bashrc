@@ -7,6 +7,8 @@ esac
 # ==========================================================
 # Aliases + Key+Commands [(modifier) + key]
 # ==========================================================
+# uncomment with your fossil identity if you want
+# fossil user default Phovos Phovos@outlook.com
 alias ...='../../'
 alias ..='../'
 # gitdoc  # see (gitdoc) below
@@ -46,8 +48,433 @@ alias gll='git log -1 --stat'
 alias gclean='git clean -fdX'
 alias diff='git diff --color-words'
 alias dif='git diff --color --word-diff --stat'
+
+# ==========================================================
+# FOSSIL SCM - First Class Support
+# ==========================================================
+# NOT a 'requirement', but it is, you know? Installing it is out of scope, what kind of decrepit system doesn't have Fossil SCM support (hint-hint)?
+
+# sudo apt-get install fossil
+# Or build from source
+# git clone https://fossil-scm.org/home /tmp/fossil
+# cd /tmp/fossil
+# ./configure
+# make
+# sudo make install
+# User-responsibility, not this workflow's
+
+# -------- Core Environment --------
+export FOSSIL_HOME="$HOME/.fossil"
+export FOSSIL_REPO_DIR="$HOME/repos"
+export FOSSIL_WORK_DIR="$HOME/workspaces"
+
+# Ensure directories exist
+mkdir -p "$FOSSIL_HOME" "$FOSSIL_REPO_DIR" "$FOSSIL_WORK_DIR" 2>/dev/null
+
+# -------- Fossil Aliases (The Basics) --------
+alias fs='fossil status'
+alias fst='fossil stash'
+alias fsp='fossil stash pop'
+alias fsl='fossil stash list'
+alias fdiff='fossil diff --color'
+alias fdf='fossil diff --color-words'
+alias fl='fossil timeline'
+alias fll='fossil timeline -n 20'
+alias fco='fossil checkout'
+alias fup='fossil update'
+alias fcom='fossil commit'
+alias fcm='fossil commit -m'
+alias fpush='fossil push'
+alias fpull='fossil pull'
+alias fsync='fossil sync'
+alias fclone='fossil clone'
+alias finit='fossil init'
+alias fopen='fossil open'
+alias fclose='fossil close'
+alias finfo='fossil info'
+alias fcat='fossil cat'
+alias fadd='fossil add'
+alias faddrm='fossil add --remove'
+alias frm='fossil rm'
+alias fmv='fossil mv'
+alias frevert='fossil revert'
+alias fclean='fossil clean'
+alias fscrub='fossil scrub'
+alias ftag='fossil tag'
+alias fbranch='fossil branch'
+alias fmerge='fossil merge'
+alias fconf='fossil config'
+alias fuser='fossil user'
+alias fcap='fossil capabilities'
+alias fverify='fossil verify'
+alias fpolicy='fossil policy'
+
+
+# ==========================================================
+# FOSSIL SCM - First Class Support
+# ==========================================================
+
+# -------- Core Environment --------
+export FOSSIL_HOME="$HOME/.fossil"
+export FOSSIL_REPO_DIR="$HOME/repos"
+export FOSSIL_WORK_DIR="$HOME/workspaces"
+
+# Ensure directories exist
+mkdir -p "$FOSSIL_HOME" "$FOSSIL_REPO_DIR" "$FOSSIL_WORK_DIR" 2>/dev/null
+
+# -------- Fossil Aliases (The Basics) --------
+alias fs='fossil status'
+alias fst='fossil stash'
+alias fsp='fossil stash pop'
+alias fsl='fossil stash list'
+alias fdiff='fossil diff --color'
+alias fdf='fossil diff --color-words'
+alias fl='fossil timeline'
+alias fll='fossil timeline -n 20'
+alias fco='fossil checkout'
+alias fup='fossil update'
+alias fcom='fossil commit'
+alias fcm='fossil commit -m'
+alias fpush='fossil push'
+alias fpull='fossil pull'
+alias fsync='fossil sync'
+alias fclone='fossil clone'
+alias finit='fossil init'
+alias fopen='fossil open'
+alias fclose='fossil close'
+alias finfo='fossil info'
+alias fcat='fossil cat'
+alias fadd='fossil add'
+alias faddrm='fossil add --remove'
+alias frm='fossil rm'
+alias fmv='fossil mv'
+alias frevert='fossil revert'
+alias fclean='fossil clean'
+alias fscrub='fossil scrub'
+alias ftag='fossil tag'
+alias fbranch='fossil branch'
+alias fmerge='fossil merge'
+alias fconf='fossil config'
+alias fuser='fossil user'
+alias fcap='fossil capabilities'
+alias fverify='fossil verify'
+alias fpolicy='fossil policy'
+
+# -------- Enhanced Fossil Functions --------
+
+# fsi - Fossil Status with Info
+fsi() {
+    echo "$(green '═══ Fossil Repository Status ═══')"
+    fossil status
+    echo
+    echo "$(yellow 'Current Branch:') $(fossil branch current 2>/dev/null || echo 'None')"
+    echo "$(yellow 'Checkout:')     $(fossil info | grep checkout | awk '{print $2}')"
+}
+
+# fclone - Clone with workspace creation
+fclone() {
+    if [ $# -lt 1 ]; then
+        echo "Usage: fclone <repo-url> [workspace-name]"
+        echo "Example: fclone https://fossil-scm.org/home my-fossil"
+        return 1
+    fi
+    
+    local url="$1"
+    local name="${2:-$(basename "$url" .fossil)}"
+    local repo_path="$FOSSIL_REPO_DIR/$name.fossil"
+    local work_path="$FOSSIL_WORK_DIR/$name"
+    
+    echo "$(green "Cloning $url -> $repo_path")"
+    fossil clone "$url" "$repo_path"
+    
+    if [ $? -eq 0 ]; then
+        mkdir -p "$work_path"
+        cd "$work_path"
+        echo "$(green "Opening repository in $work_path")"
+        fossil open "$repo_path"
+        echo "$(blue "Clone complete! In workspace: $work_path")"
+    else
+        echo "$(red "Clone failed")"
+        return 1
+    fi
+}
+
+# fnew - Initialize new Fossil repository
+fnew() {
+    if [ $# -lt 1 ]; then
+        echo "Usage: fnew <repo-name> [workspace-name]"
+        echo "Example: fnew myproject"
+        return 1
+    fi
+    
+    local name="$1"
+    local repo_path="$FOSSIL_REPO_DIR/$name.fossil"
+    local work_path="${2:-$FOSSIL_WORK_DIR/$name}"
+    
+    echo "$(green "Creating new repository: $repo_path")"
+    fossil init "$repo_path"
+    
+    if [ $? -eq 0 ]; then
+        mkdir -p "$work_path"
+        cd "$work_path"
+        echo "$(green "Opening repository in $work_path")"
+        fossil open "$repo_path"
+        echo "$(blue "Repository created! In workspace: $work_path")"
+        echo "$(yellow "Next steps:")"
+        echo "   fossil add ."
+        echo "   fossil commit -m 'Initial commit'"
+        echo "   fossil ui           # Start web interface"
+    else
+        echo "$(red "Repository creation failed")"
+        return 1
+    fi
+}
+
+# fui - Start Fossil UI (with options)
+fui() {
+    if [ -f "$FOSSIL_REPO_DIR/$(basename $(pwd)).fossil" ]; then
+        local repo="$FOSSIL_REPO_DIR/$(basename $(pwd)).fossil"
+        echo "$(green "Starting Fossil UI for $repo")"
+        fossil ui "$repo" &
+    elif [ -f "$(pwd)/$(basename $(pwd)).fossil" ]; then
+        echo "$(green "Starting Fossil UI for $(pwd)/$(basename $(pwd)).fossil")"
+        fossil ui &
+    else
+        echo "$(red "No Fossil repository found in current directory")"
+        echo "Try: fossil ui <repository.fossil>"
+        return 1
+    fi
+}
+
+# fserve - Start Fossil server (background)
+fserve() {
+    if [ $# -lt 1 ]; then
+        echo "Usage: fserve <repository.fossil> [port]"
+        echo "Example: fserve myrepo.fossil 8081"
+        return 1
+    fi
+    
+    local repo="$1"
+    local port="${2:-8081}"
+    
+    if [ ! -f "$repo" ]; then
+        echo "$(red "Repository not found: $repo")"
+        return 1
+    fi
+    
+    echo "$(green "Starting Fossil server on port $port")"
+    echo "$(yellow "Access at: http://localhost:$port")"
+    fossil server "$repo" --port "$port" &
+}
+
+# fserve-repo - Serve current repository
+fserve-repo() {
+    local port="${1:-8081}"
+    local repo="$(pwd)/$(basename $(pwd)).fossil"
+    
+    if [ -f "$repo" ]; then
+        fserve "$repo" "$port"
+    else
+        echo "$(red "No .fossil repository found in current directory")"
+        return 1
+    fi
+}
+
+# fbranch-current - Show current branch with color
+fbranch-current() {
+    local branch=$(fossil branch current 2>/dev/null)
+    if [ -n "$branch" ]; then
+        echo "$(green "Current branch: $branch")"
+    else
+        echo "$(yellow "Not in a Fossil workspace")"
+    fi
+}
+
+# fcommit-with-msg - Commit with message and optional --amend
+fcom() {
+    if [ $# -eq 0 ]; then
+        echo "Usage: fcom <message> [--amend]"
+        echo "Example: fcom 'Fixed bug' --amend"
+        return 1
+    fi
+    
+    local msg="$1"
+    shift
+    local extra="$@"
+    
+    if [[ "$extra" == *"--amend"* ]]; then
+        echo "$(yellow "Amending previous commit...")"
+        fossil commit --amend -m "$msg"
+    else
+        echo "$(green "Committing with message: $msg")"
+        fossil commit -m "$msg" $extra
+    fi
+}
+
+# fbranch-new - Create and switch to new branch
+fbranch-new() {
+    if [ $# -lt 1 ]; then
+        echo "Usage: fbranch-new <branch-name> [base-commit]"
+        echo "Example: fbranch-new feature/x"
+        return 1
+    fi
+    
+    local branch="$1"
+    local base="${2:-trunk}"
+    
+    echo "$(green "Creating branch: $branch from $base")"
+    fossil branch new "$branch" "$base"
+    fossil update "$branch"
+    echo "$(blue "Switched to branch: $branch")"
+}
+
+# fpush-private - Push private artifacts
+fpush-private() {
+    echo "$(yellow "Pushing private artifacts...")"
+    fossil push --private
+}
+
+# fprovenance - Show artifact provenance
+fprovenance() {
+    if [ $# -lt 1 ]; then
+        echo "Usage: fprovenance <artifact-hash>"
+        return 1
+    fi
+    fossil provenance "$@"
+}
+
+# fsync-all - Full sync with debug info
+fsync-all() {
+    echo "$(green "Full sync with debug...")"
+    fossil sync --verbose --httptrace
+}
+
+# fbackup - Backup the current repository
+fbackup() {
+    local repo="$(pwd)/$(basename $(pwd)).fossil"
+    if [ -f "$repo" ]; then
+        local backup="${repo}.backup-$(date +%Y%m%d-%H%M%S)"
+        echo "$(green "Backing up to: $backup")"
+        cp "$repo" "$backup"
+        echo "$(blue "Backup complete")"
+    else
+        echo "$(red "No .fossil repository found")"
+        return 1
+    fi
+}
+
+# fdetritus - The higher-arity detritus form (composing sets via stdin/out)
+fdetritus() {
+    if [ $# -eq 0 ]; then
+        cat <<'DETRITUS_HELP'
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃           Fossil Detritus Mode (Higher-Arity)          ┃
+┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ Format: fdetritus <command> <args>                     ┃
+┃ Example: echo "status" | fdetritus                     ┃
+┃          fdetritus timeline -n 5 | grep -i commit      ┃
+┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃  Detritus pipes allow set composition via stdio:      ┃
+┃    stdout → stdin  (morphism chaining)                ┃
+┃    stdin  → stdout (categorical transformation)       ┃
+┃    stderr → /dev/null (pure functional composition)   ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+DETRITUS_HELP
+        return 0
+    fi
+    
+    # Parse stdin for detritus commands
+    if [ ! -t 0 ]; then
+        # We have piped input - compose sets
+        local input=$(cat)
+        echo "$(yellow "Detritus composition: processing stdin")"
+        echo "$input" | fossil "$@"
+    else
+        # Direct command mode
+        fossil "$@"
+    fi
+}
+
+# -------- Fossil ISA Table Display --------
+fisa() {
+    cat <<'FOSSIL_ISA'
+┌─────────────┬───────────────────────┬──────────────────────────────────────┬──────────────────────────────┐
+│ Fossil ISA  │ Typical CLI           │ BW² Detritus Form                   │ Turing Analogy               │
+├─────────────┼───────────────────────┼──────────────────────────────────────┼──────────────────────────────┤
+│ OPEN        │ fossil open           │ [ByteWord_repo, ByteWord_workspace] │ Init tape cursor             │
+│ CLOSE       │ fossil close          │ [BW_substrate, BW_null]             │ Tape detach / noop           │
+│ INIT        │ fossil init           │ [BW_new_repo, BW_meta]              │ Tape genesis, PC=0           │
+│ DESCRIBE    │ fossil info           │ [BW_ID, BW_hash]                    │ Read-only fetch (memory query│
+│ COMMIT      │ fossil commit         │ [BW_delta, BW_authority]            │ Collapse → store on tape     │
+│ AMEND       │ fossil amend          │ [BW_last_commit, BW_delta]          │ GOTO local PC → rewrite      │
+│ BRANCH      │ fossil branch         │ [BW_tip, BW_name]                   │ Fork tape branch (PC split)  │
+│ MERGE       │ fossil merge          │ [BW_head1, BW_head2]                │ Deterministic merge → new PC │
+│ TIMELINE    │ fossil timeline       │ [BW_cursor, BW_bounds]              │ Enumerate reachable tape     │
+│ UPDATE      │ fossil update         │ [BW_commit, BW_registers]           │ Load commit → registers      │
+│ REVERT      │ fossil revert         │ [BW_prev_commit, BW_registers]      │ Undo → backward jump (GOTO)  │
+│ CLEAN       │ fossil clean          │ [BW_workspace, BW_flags]            │ Reset tape → zero state      │
+│ SCRUB       │ fossil scrub          │ [BW_garbage, BW_metadata]           │ GC unreachable detritus      │
+│ SNAPSHOT    │ fossil snapshot       │ [BW_marker, BW_meta]                │ Marker → read-only tape label│
+│ TAG         │ fossil tag            │ [BW_commit, BW_label]               │ Annotate cell in tape        │
+│ COMMENT     │ fossil comment        │ [BW_commit, BW_string]              │ Optional tape metadata       │
+│ ANNOTATE    │ fossil annotate       │ [BW_commit, BW_struct]              │ Typed metadata for registers │
+│ PROVENANCE  │ fossil provenance     │ [BW_cursor, BW_ancestry]            │ Trace tape dependency graph  │
+│ USER        │ fossil user           │ [BW_action, BW_identity]            │ Inject agent identity into PC│
+│ CAPABILITY  │ fossil capabilities   │ [BW_action, BW_constraints]         │ Set boundary constraints     │
+│ VERIFY      │ fossil verify         │ [BW_commit, BW_checksum]            │ Assert tape invariant        │
+│ POLICY      │ fossil policy         │ [BW_commit, BW_rules]               │ Guard tape region → branch   │
+│ READ        │ fossil cat            │ [BW_commit, BW_register]            │ Load instruction into PC     │
+│ WRITE       │ fossil push           │ [BW_register, BW_commit]            │ Store instruction → tape     │
+│ NOOP        │ NOP                   │ [BW_null, BW_null]                  │ Explicit no-op / align PC    │
+└─────────────┴───────────────────────┴──────────────────────────────────────┴──────────────────────────────┘
+FOSSIL_ISA
+}
+
+# -------- Fossil CLI/TTL Prompt Integration (Optional) --------
+# Show Fossil branch in prompt
+fossil_prompt() {
+    if [ -n "$(command -v fossil 2>/dev/null)" ] && [ -f ".fslckout" ]; then
+        local branch=$(fossil branch current 2>/dev/null)
+        if [ -n "$branch" ]; then
+            echo " [$branch]"
+        fi
+    fi
+}
+
+# Uncomment to add Fossil info to PS1:
+# PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]$(fossil_prompt)\$ '
+
+# -------- Autocomplete Setup (if available) --------
+if command -v fossil >/dev/null 2>&1; then
+    # Enable fossil autocomplete if available
+    if [ -f /usr/share/bash-completion/completions/fossil ]; then
+        . /usr/share/bash-completion/completions/fossil
+    elif [ -f /etc/bash_completion.d/fossil ]; then
+        . /etc/bash_completion.d/fossil
+    fi
+    
+    echo "$(green "✓ Fossil SCM initialized")"
+    echo "$(blue " Type 'fisa' for ISA reference")"
+    echo "$(blue " Type 'fnew' or 'fclone' to start")"
+fi
+
+# --------------------------------------------------
+# Custom fossil example (commented-out)
+# --------------------------------------------------
+# fossil timeline -n 10
+
+# Detritus composition (pipes through stdin)
+# echo "timeline -n 10" | fdetritus
+
+# Chain compositions
+# fdetritus timeline -n 10 | grep "commit" | fdetritus info
+
+# Pure set composition via stdin/stdout
+# ls -la | fdetritus add    # Add all files in current dir
+
 # ----------------------------------------------------
 # Git Functions
+# ----------------------------------------------------
 function unstage() {
   git reset HEAD -- $1
 }
