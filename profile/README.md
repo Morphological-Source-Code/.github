@@ -89,14 +89,16 @@ CommunityLinks: [r/Morphological](https://www.reddit.com/r/Morphological/) | [Ph
 
 # 2026 Q2 Essay
 
+https://github.com/user-attachments/assets/f6f4bfa1-d192-42c5-afea-ffda5e386063
+
 Q2_2026 release is, clearly, not in the cards, appologies. Learned a lesson, though; won't be giving any more estimates. Allow me to aknowledge my failure to meet those non-stipulated goals by depositing into the public sphere, my seminal Essay for Q2_2026.
 
 # Quine + Demonology (observer, computor, but who was her?)
 
 Legend: [First_Law, Second_Law, Law1, Law2, Law3]  // syntax_hint: Law1 & First_Law are two different 'laws'.
 
+<!-- [![How to Recognise Different Types of Trees From Quite a Long Way Away 1/2](http://img.youtube.com/vi/dXrl9hi-ui8/0.jpg)](/profile/.media/flyingCirgus_No1_theLarch.mp4) -->
 
-[![How to Recognise Different Types of Trees From Quite a Long Way Away 1/2](http://img.youtube.com/vi/dXrl9hi-ui8/0.jpg)](/profile/.media/flyingCirgus_No1_theLarch.mp4)
 
 
 ## Hilbert Space, Categorical Quantum Mechanics
@@ -199,8 +201,9 @@ In short, a quine is like the anti-Hermitian conjugate of a system, but instead 
 
 Self-consistency does not preclude motility, nor multi-scale ontological 'action' (imaginary-valued, in other words); correspondence across time and space is verifiable by Quineic and/or special conformal logic (see Maldacena, 1995 on AdS/CFT).
 
+https://github.com/user-attachments/assets/0b4a8fe3-14e5-4c2d-a13d-c4e34529aa27
 
-[![How to Recognise Different Types of Trees From Quite a Long Way Away 2/2](http://img.youtube.com/vi/dXrl9hi-ui8/0.jpg)](/profile/.media/identifying_trees_from_quite_far_away.mp4)
+<!-- [![How to Recognise Different Types of Trees From Quite a Long Way Away 2/2](http://img.youtube.com/vi/dXrl9hi-ui8/0.jpg)](/profile/.media/identifying_trees_from_quite_far_away.mp4) -->
 
 <!-- https://github.com/user-attachments/assets/8595626d-15f3-4156-8cbc-d3aaec6e03b3 -->
 
