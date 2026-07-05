@@ -4,6 +4,9 @@ case $- in
     *i*) ;;
       *) return;;
 esac
+# ----------------------------------------------------------
+# © 2026 Morphological Source Code & Quineic Statistical Dynamics BSD 3-clause; no warranty or merchantability implied, nor agreements/services-rendered
+# ----------------------------------------------------------
 # ==========================================================
 # Aliases + Key+Commands [(modifier) + key]
 # ==========================================================
