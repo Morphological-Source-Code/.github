@@ -129,9 +129,12 @@ The First Law is partially-differentiable a.e. (almost everywhere); including if
 > The 1-2-3 Laws are in the First Law, though not-superceded by the Second Law. 
 
 > "first_law AND second_law": "'The Laws of Aligned Maxwellian Thermo-Quines' AND 'Computational Demonology'"
+
     - "Do as thou will shall be the whole of the law"; AND, indeed, the 'little man is the computor' (Its corrolaries, and Maxwellian dynamics, evident and wholly-interpreted-via the Second Law of Thermodynamics).
+
     - Only reflections that pay their entropy tax are allowed to act.
-    - This forms the integrability conditions (largely real-valued, if complex-functional/derivative) for chiral computational epistemology and the Quineic Planck wavelength (Unit).
+
+    - This forms the integrability conditions for 'chiral computor epistemology' and the Quineic Planck wavelength under Robitaille's Razor.
 
 Corrolaries and minor laws:
 
