@@ -317,11 +317,11 @@ fdetritus() {
     if [ $# -eq 0 ]; then
         cat <<'DETRITUS_HELP'
 ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-┃           Fossil Detritus Mode (Higher-Arity)          ┃
+┃           Fossil Detritus Mode (Higher-Arity)         ┃
 ┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
-┃ Format: fdetritus <command> <args>                     ┃
-┃ Example: echo "status" | fdetritus                     ┃
-┃          fdetritus timeline -n 5 | grep -i commit      ┃
+┃ Format: fdetritus <command> <args>                    ┃
+┃ Example: echo "status" | fdetritus                    ┃
+┃          fdetritus timeline -n 5 | grep -i commit     ┃
 ┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
 ┃  Detritus pipes allow set composition via stdio:      ┃
 ┃    stdout → stdin  (morphism chaining)                ┃
@@ -347,9 +347,9 @@ DETRITUS_HELP
 # -------- Fossil ISA Table Display --------
 fisa() {
     cat <<'FOSSIL_ISA'
-┌─────────────┬───────────────────────┬──────────────────────────────────────┬──────────────────────────────┐
-│ Fossil ISA  │ Typical CLI           │ BW² Detritus Form                   │ Turing Analogy               │
-├─────────────┼───────────────────────┼──────────────────────────────────────┼──────────────────────────────┤
+┌─────────────┬───────────────────────┬─────────────────────────────────────┬──────────────────────────────┐
+│ Fossil ISA  │ Typical CLI           │ BW² Detritus Form                   │ Turing Machine               │
+├─────────────┼───────────────────────┼─────────────────────────────────────┼──────────────────────────────┤
 │ OPEN        │ fossil open           │ [ByteWord_repo, ByteWord_workspace] │ Init tape cursor             │
 │ CLOSE       │ fossil close          │ [BW_substrate, BW_null]             │ Tape detach / noop           │
 │ INIT        │ fossil init           │ [BW_new_repo, BW_meta]              │ Tape genesis, PC=0           │
@@ -375,7 +375,7 @@ fisa() {
 │ READ        │ fossil cat            │ [BW_commit, BW_register]            │ Load instruction into PC     │
 │ WRITE       │ fossil push           │ [BW_register, BW_commit]            │ Store instruction → tape     │
 │ NOOP        │ NOP                   │ [BW_null, BW_null]                  │ Explicit no-op / align PC    │
-└─────────────┴───────────────────────┴──────────────────────────────────────┴──────────────────────────────┘
+└─────────────┴───────────────────────┴─────────────────────────────────────┴──────────────────────────────┘
 FOSSIL_ISA
 }
 
