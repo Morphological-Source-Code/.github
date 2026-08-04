@@ -67,7 +67,7 @@ Disclaimer:
 - (1) [Gitlab](https://gitlab.com/morphological/source/code)
 - (2) [Github](https://github.com/Morphological-Source-Code)
 
-These 'repositories' and 'art' are Share-Alike Non-Commercial (the source code file(s), themselve(s), carry BSD 3-Clause):
+These 'repositories' and 'art' are Share-Alike Non-Commercial (the source code file(s), themselves, carry BSD 3-Clause):
 
 [![CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC--BY--NC--SA-lightgrey?style=for-the-badge)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
@@ -86,20 +86,6 @@ CommunityLinks: [r/Morphological](https://www.reddit.com/r/Morphological/) | [Ph
 <a href="https://github.com/MOONLAPSED/">MSC & QSD</a> © licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en">CC BY-ND-SA 4.0</a> by <a href="https://github.com/MOONLAPSED/">MOONLAPSED</a> <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;">
 
 [![neverNeverLand.jpg](/profile/.media/image.jpg)
-
-# 2026 Q2 Essay
-
-https://github.com/user-attachments/assets/f6f4bfa1-d192-42c5-afea-ffda5e386063
-
-Q2_2026 release is, clearly, not in the cards, appologies. Learned a lesson, though; won't be giving any more estimates. Allow me to aknowledge my failure to meet those non-stipulated goals by depositing into the public sphere, my seminal Essay for Q2_2026.
-
-# Quine + Demonology (observer, computor, but who was her?)
-
-Legend: [First_Law, Second_Law, Law1, Law2, Law3]  // syntax_hint: Law1 & First_Law are two different 'laws'.
-
-<!-- [![How to Recognise Different Types of Trees From Quite a Long Way Away 1/2](http://img.youtube.com/vi/dXrl9hi-ui8/0.jpg)](/profile/.media/flyingCirgus_No1_theLarch.mp4) -->
-
-
 
 ## Hilbert Space, Categorical Quantum Mechanics
 
@@ -209,6 +195,18 @@ https://github.com/user-attachments/assets/0b4a8fe3-14e5-4c2d-a13d-c4e34529aa27
 <!-- [![How to Recognise Different Types of Trees From Quite a Long Way Away 2/2](http://img.youtube.com/vi/dXrl9hi-ui8/0.jpg)](/profile/.media/identifying_trees_from_quite_far_away.mp4) -->
 
 <!-- https://github.com/user-attachments/assets/8595626d-15f3-4156-8cbc-d3aaec6e03b3 -->
+
+# 2026 Q2 Essay
+
+https://github.com/user-attachments/assets/f6f4bfa1-d192-42c5-afea-ffda5e386063
+
+Q2_2026 release is, clearly, not in the cards, appologies. Learned a lesson, though; won't be giving any more estimates. Allow me to aknowledge my failure to meet those non-stipulated goals by depositing into the public sphere, my seminal Essay for Q2_2026.
+
+# Quine + Demonology (observer, computor, but who was her?)
+
+Legend: [First_Law, Second_Law, Law1, Law2, Law3]  // syntax_hint: Law1 & First_Law are two different 'laws'.
+
+<!-- [![How to Recognise Different Types of Trees From Quite a Long Way Away 1/2](http://img.youtube.com/vi/dXrl9hi-ui8/0.jpg)](/profile/.media/flyingCirgus_No1_theLarch.mp4) -->
 
 # Video Essay/RFC © 2024 
 [![Ontological Relativity & AI Singularity: Convening Epistemic Dualities and Morphological Source Code](http://img.youtube.com/vi/ecQevCn-fcI/0.jpg)](https://www.youtube.com/watch?v=ecQevCn-fcI "Ontological Relativity & AI Singularity: Convening Epistemic Dualities and Morphological Source Code")
