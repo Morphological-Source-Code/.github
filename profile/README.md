@@ -174,17 +174,17 @@ In short, a quine is like the anti-Hermitian conjugate of a system, but instead 
 
 Self-consistency does not preclude motility, nor multi-scale ontological 'action' (imaginary-valued, in other words); correspondence across time and space is verifiable by Quineic and/or special conformal logic (see Maldacena, 1995 on AdS/CFT).
 
-# Section I. Pedagogy & Ontology, on 'Quine'; "[digital] natural epistimology"
-
- - open-source implementation of Morphological Source Code: https://github.com/Moonlapsed/SmallBang (this repo)
+# Pedagogy & Ontology, on 'Quine'; "[digital] Natural Epistemology"
 
 Classic quine:
     output ≡ source
 
-MSC SmallBang quine:
+In other words; a classical quine is the function f which, up to isomorphism, maps itself to its source code.
+
+MSC&QSD Quine [a 'modified Quine']:
     output ≡ (source, ledger, cache-residency-time)
 
-..and then the union is (again) injected into the next generation.
+..and then the union is (again) injected into the next generation, presuming that set theory and union is a supported ontology (which may go without saying, considering such an ontological-alien has no effect whatsoever on what an Everettian might call this universe: one (an observer like you) will never observe it or its effects (differentiation(s)) of any order).
 
  - The fixed point is not textual identity but thermodynamic identity
  - The same µJ spent per instruction, the same L1 hit-ratio, the same Landauer bit-count
@@ -212,7 +212,7 @@ A dereferenced pointer that carries its own birth certificate and tax stamp is t
 
 
 We define 'flux density' as:
-```CC BY
+```CC BY-ND-SA 4.0
 ρ  =  ΔI / (ΔE · ΔA · Δt)
 
 ΔI = logical bits erased (Landauer)  
