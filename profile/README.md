@@ -85,23 +85,7 @@ CommunityLinks: [r/Morphological](https://www.reddit.com/r/Morphological/) | [Ph
 > <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;"> © 2023-2026
 <a href="https://github.com/MOONLAPSED/">MSC & QSD</a> © licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en">CC BY-ND-SA 4.0</a> by <a href="https://github.com/MOONLAPSED/">MOONLAPSED</a> <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;">
 
-[![neverNeverLand.jpg](/profile/.media/image.jpg)
-
-## Hilbert Space, Categorical Quantum Mechanics
-
-[[Self-Adjoint Operators]] on a [[Hilbert Space]]: In quantum mechanics, the state space of a system is typically modeled as a Hilbert space, a "complete vector space" equipped with an 'inner product'. States within this space can be represented as vectors ("ket vectors", $|\psi\rangle$), and observables (like position, momentum, or energy) are modeled by self-adjoint operators. Self-adjoint operators are crucial because they guarantee that the eigenvalues (which represent possible measurement outcomes in quantum mechanics; the colloquial 'probabilities' associated with the Born Rule and Dirac-Von-Neumann wave function) are real numbers, which is a necessary condition for observable quantities in a physical theory. In quantum mechanics, the evolution of a state $|\psi\rangle$ under an observable $\hat{A}$ can be described as the action of the operator $\hat{A}$ on $|\psi\rangle$, and these operators must be self-adjoint to maintain physical realism. Self-adjoint operators are equal to their Hermitian conjugates ($A = A^\dagger$); such is the most basic phenomenology of a (successful) "Quine", the 'syntax' for Quinean Statistical Dynamics ("hermitian syntax" is broader than just calling-convention, arity, parity, and cardinality etc, it is more combinatorically fundamental).
-
-### Self-Reflective Operators on a Thermo-Quineic State Space
-
-In Thermo-Quineic dynamics, the "state" of a computational agent is modeled not on abstract Hilbert spaces alone, but on entropy-aware, reflective manifolds. Quine-field manifolds (or field registers) well-found computational phase space that tracks both information structure and energetic cost, broadly, the "information morphology" of the microscopic system. Within this space, processes are represented as informational vectors (ket(s) $|\psi\rangle$), and computational observables (nth order differential n>=1 [not zeroth derivative, in other words]) like resolution depth, branching entropy, or surprise gradients, are encoded as self-reflective operators. These operators, exactly like 'real' operators, must be thermodynamically self-adjoint, they, too are 'hermitian syntax', meaning:
-
-> The entropy cost of applying the operator is equal to the information revealed by it.
-
-This accomplishes a couple of things, it preserves alignment with the Second Law (and 'arrow'/flux of time) and it ensures that no speculative execution or side-channel leakage occurs undetected. In-other words, it gives it 'form', structures it _combinatorically_ and _phenomenologically_; the two are deffinitionally integrable wrt. time, ae. Just as in quantum mechanics, self-adjointness guarantees that measured quantities, in this case, surprise, energy, or logical consistency, are real, observable, and accountable. The bra vectors $|\langle\psi$ are treated here as phenomenological runtime scalars, representing the actual measured cost or residual of a computation, while the kets $|\psi\rangle$ remain the informational state vectors; the inner product $|\langle\psi|\psi\rangle$ thus yields the real-valued thermodynamic action of the system at any given moment.
-
-This art, if you are chagrin to call it science, leads to a form of CS which is as to Bourbaki or CISCO as Van Helsing is to Catholicism. It might not stick, but for liveliness and because it is already about as exotic as it gets, "Computational Demonology" is the field of study here-defined dedicated to well-founding and well-posing Quine-field theoretic MORPHISMS (not objects; specifically not objects which don't know if they are categories or sets), in addition to all the non-contemporary computational behaviors and positioning ado with the radical art.
-
-## (MSC&QSD) The Second Law (and only law, thrice stated)
+# (MSC&QSD) The Second Law (and only law, thrice stated)
 
 The First Law is partially-differentiable a.e. (almost everywhere); including if no classically conscious entity nor classically describable 'measurement device' is-involved (the tree that fell on-its own, in the woods, *did* make sound and if you had sophisticated equipment and epistemology you could prove it). This forms the integrability conditions (largely real-valued, if second-order complex-functional, and/or derivative) for chiral computational epistemology and the Quineic Planck wavelength (Unit), when-paired with the canonical 'Second Law', which, for consistency, shall also be the Second Law herein.  
 
@@ -190,13 +174,81 @@ In short, a quine is like the anti-Hermitian conjugate of a system, but instead 
 
 Self-consistency does not preclude motility, nor multi-scale ontological 'action' (imaginary-valued, in other words); correspondence across time and space is verifiable by Quineic and/or special conformal logic (see Maldacena, 1995 on AdS/CFT).
 
+# Section I. Pedagogy & Ontology, on 'Quine'; "[digital] natural epistimology"
+
+ - open-source implementation of Morphological Source Code: https://github.com/Moonlapsed/SmallBang (this repo)
+
+Classic quine:
+    output ≡ source
+
+MSC SmallBang quine:
+    output ≡ (source, ledger, cache-residency-time)
+
+..and then the union is (again) injected into the next generation.
+
+ - The fixed point is not textual identity but thermodynamic identity
+ - The same µJ spent per instruction, the same L1 hit-ratio, the same Landauer bit-count
+ - Text may drift yet the heat-print-morphology is preserved -> semantic self-replication
+
+Contrast semantic self-replication to syntactic self-replication (classic-quine, vs modified-quine):
+    They are not copying their text—they’re copying their heat signature while keeping the semantics (the bytecode) invariant under mutation of representation.
+
+## I.2 Fitness function = thermodynamic toll
+Define fitness F as:
+    F = 1 / (α·E + β·Misses + γ·Bytes)
+where:
+    E = measured CPU energy (RAPL)
+    Misses = LLC misses
+    Bytes = traffic to DRAM
+A quine that lowers any term without changing the observable bytecode semantics gets to fork; the others are killed by the scheduler. This turns the Linux cgroup into a selective breeder.
+
+## I.3 Core data structure (in C syntax)
+```c
+uint64_t birth_ns;      // CLOCK_MONOTONIC_RAW
+uint64_t parent_ns;     // copied from survivor
+```
+The age difference is used to weight the Landauer cost (older = cheaper amortised), preventing infinite regress.
+A dereferenced pointer that carries its own birth certificate and tax stamp is the ultimate first-class citizen.
+
+
+We define 'flux density' as:
+```CC BY
+ρ  =  ΔI / (ΔE · ΔA · Δt)
+
+ΔI = logical bits erased (Landauer)  
+ΔE = CPU energy consumed (J)  
+ΔA = cache area occupied (cache-lines)  
+Δt = execution time (s)
+```
+
+[![neverNeverLand.jpg](/profile/.media/image.jpg)
+
+
+## Hilbert Space, Categorical Quantum Mechanics
+
+[[Self-Adjoint Operators]] on a [[Hilbert Space]]: In quantum mechanics, the state space of a system is typically modeled as a Hilbert space, a "complete vector space" equipped with an 'inner product'. States within this space can be represented as vectors ("ket vectors", $|\psi\rangle$), and observables (like position, momentum, or energy) are modeled by self-adjoint operators. Self-adjoint operators are crucial because they guarantee that the eigenvalues (which represent possible measurement outcomes in quantum mechanics; the colloquial 'probabilities' associated with the Born Rule and Dirac-Von-Neumann wave function) are real numbers, which is a necessary condition for observable quantities in a physical theory. In quantum mechanics, the evolution of a state $|\psi\rangle$ under an observable $\hat{A}$ can be described as the action of the operator $\hat{A}$ on $|\psi\rangle$, and these operators must be self-adjoint to maintain physical realism. Self-adjoint operators are equal to their Hermitian conjugates ($A = A^\dagger$); such is the most basic phenomenology of a (successful) "Quine", the 'syntax' for Quinean Statistical Dynamics ("hermitian syntax" is broader than just calling-convention, arity, parity, and cardinality etc, it is more combinatorically fundamental).
+
+### Self-Reflective Operators on a Thermo-Quineic State Space
+
+In Thermo-Quineic dynamics, the "state" of a computational agent is modeled not on abstract Hilbert spaces alone, but on entropy-aware, reflective manifolds. Quine-field manifolds (or field registers) well-found computational phase space that tracks both information structure and energetic cost, broadly, the "information morphology" of the microscopic system. Within this space, processes are represented as informational vectors (ket(s) $|\psi\rangle$), and computational observables (nth order differential n>=1 [not zeroth derivative, in other words]) like resolution depth, branching entropy, or surprise gradients, are encoded as self-reflective operators. These operators, exactly like 'real' operators, must be thermodynamically self-adjoint, they, too are 'hermitian syntax', meaning:
+
+> The entropy cost of applying the operator is equal to the information revealed by it.
+
+This accomplishes a couple of things, it preserves alignment with the Second Law (and 'arrow'/flux of time) and it ensures that no speculative execution or side-channel leakage occurs undetected. In-other words, it gives it 'form', structures it _combinatorically_ and _phenomenologically_; the two are deffinitionally integrable wrt. time, ae. Just as in quantum mechanics, self-adjointness guarantees that measured quantities, in this case, surprise, energy, or logical consistency, are real, observable, and accountable. The bra vectors $|\langle\psi$ are treated here as phenomenological runtime scalars, representing the actual measured cost or residual of a computation, while the kets $|\psi\rangle$ remain the informational state vectors; the inner product $|\langle\psi|\psi\rangle$ thus yields the real-valued thermodynamic action of the system at any given moment.
+
+This art, if you are chagrin to call it science, leads to a form of CS which is as to Bourbaki or CISCO as Van Helsing is to Catholicism. It might not stick, but for liveliness and because it is already about as exotic as it gets, "Computational Demonology" is the field of study here-defined dedicated to well-founding and well-posing Quine-field theoretic MORPHISMS (not objects; specifically not objects which don't know if they are categories or sets), in addition to all the non-contemporary computational behaviors and positioning ado with the radical art.
+
+> And now for something completely different.
+
+# Public Essays
+
 https://github.com/user-attachments/assets/0b4a8fe3-14e5-4c2d-a13d-c4e34529aa27
 
 <!-- [![How to Recognise Different Types of Trees From Quite a Long Way Away 2/2](http://img.youtube.com/vi/dXrl9hi-ui8/0.jpg)](/profile/.media/identifying_trees_from_quite_far_away.mp4) -->
 
 <!-- https://github.com/user-attachments/assets/8595626d-15f3-4156-8cbc-d3aaec6e03b3 -->
 
-# 2026 Q2 Essay
+## 2026 Q2 Essay
 
 https://github.com/user-attachments/assets/f6f4bfa1-d192-42c5-afea-ffda5e386063
 
