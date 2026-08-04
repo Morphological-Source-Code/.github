@@ -184,7 +184,7 @@ In other words; a classical quine is the function f which, up to isomorphism, ma
 MSC&QSD Quine [a 'modified Quine']:
     output ≡ (source, ledger, cache-residency-time)
 
-..and then the union is (again) injected into the next generation, presuming that set theory and union is a supported ontology (which may go without saying, considering such an ontological-alien has no effect whatsoever on what an Everettian might call this universe: one (an observer like you) will never observe it or its effects (differentiation(s)) of any order).
+..and then the union is (again) injected into the next generation, presuming that set theory and union is a supported ontology (which may go without saying, considering such an ontological-alien has no effect whatsoever on what an Everettian might call this universe: (an observer like you) one will never observe it or its effects (differentiation(s)) of any order. Corollary: (see: #§0-heisenberg-dirac-schrödinger a non set-theoretic Quine (non-measure-theoretic functor and so-on) is not a topology in observable dynamics (Quine-tau, to turn a phrase); if they exist, they don't really matter like NP-hard phenomenology).
 
  - The fixed point is not textual identity but thermodynamic identity
  - The same µJ spent per instruction, the same L1 hit-ratio, the same Landauer bit-count
@@ -347,8 +347,9 @@ This orientation is inspired by:
   - Mach & Noether (Einstein, Euler, etc.)
 
 
-What follows is a **conceptual RFC** explaining why MSC/QSD is structured the way it is.
-## §1 Heisenberg, Dirac, Schrödinger
+
+## §0 Heisenberg, Dirac, Schrödinger
+What follows is a conceptual RFC explaining why MSC/QSD is structured the way it is.
 
 Heisenberg’s original insight (1925):
 
