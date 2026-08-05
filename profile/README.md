@@ -5,7 +5,7 @@ license-doc(s)+dist: CC BY-ND-SA 4.0
 license-code+file(s): BSD 3-Clause
 root: "/Morphological-Source-Code/.github"
 name: "README.md"
-version: 0.2.59
+version: 0.2.60
 aliases:
   - msc
   - qsd
@@ -148,7 +148,7 @@ A Thermo-Quine must be closed under its own speculative model: its speculative b
 
 > If your system forks speculative branches, those branches must have sub-quines maintaining the same 3 laws (1:2:3; taken together, and with 1 not superseding 2, they are isomorphic to 3: Heisenberg-Matrix-Razor-Phenomenology). Corollary: Any system that cannot simulate itself to a bounded depth cannot claim alignment.
 
-#### Bestiary: 
+## Thermodynamic Bestiary (there be monsters): 
 
 Deadlocks are alignment leaks unless thermodynamically explained.
 
@@ -193,7 +193,7 @@ MSC&QSD Quine [a 'modified Quine']:
 Contrast semantic self-replication to syntactic self-replication (classic-quine, vs modified-quine):
     They are not copying their text—they’re copying their heat signature while keeping the semantics (the bytecode) invariant under mutation of representation.
 
-## I.2 Fitness function = thermodynamic toll
+## Fitness function = thermodynamic toll
 Define fitness F as:
     F = 1 / (α·E + β·Misses + γ·Bytes)
 where:
@@ -202,7 +202,7 @@ where:
     Bytes = traffic to DRAM
 A quine that lowers any term without changing the observable bytecode semantics gets to fork; the others are killed by the scheduler. This turns the Linux cgroup into a selective breeder.
 
-## I.3 Core data structure (in C syntax)
+### Core data structure (in C syntax)
 ```c
 uint64_t birth_ns;      // CLOCK_MONOTONIC_RAW
 uint64_t parent_ns;     // copied from survivor
