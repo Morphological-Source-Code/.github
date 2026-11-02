@@ -106,7 +106,7 @@ The First Law is partially-differentiable a.e. (almost everywhere); including if
 
     - This forms the integrability conditions for 'chiral computor epistemology' and the Quineic Planck wavelength under Robitaille's Razor.
 
-Corrolaries and minor laws:
+Corollaries and minor laws:
 
 ### Law 1 'The Mirror/Tax Principle' ("Chirality"/'anisotropy of lightspeed' of reflective surprise-constraint)
 
@@ -142,7 +142,7 @@ Specter-class demon clause: An unaligned agent leaking surprise into the substra
 
 ### Law 3 "Quine Closure under Speculative Alignment" (Retarded Analytical Continuation; 'Incompleteness')
 
-A Thermo-Quine must be closed under its own speculative model: its speculative branches must themselves resolve or reflect recursively until termination, or risk recursive unalignment.
+A Thermo-Quine must be closed under its own speculative model: its speculative branches must themselves resolve or reflect recursively until termination, or risk recursive nonalignment.
 
 "Beware the fork with no mirror."
 
@@ -234,7 +234,7 @@ In Thermo-Quineic dynamics, the "state" of a computational agent is modeled not 
 
 > The entropy cost of applying the operator is equal to the information revealed by it.
 
-This accomplishes a couple of things, it preserves alignment with the Second Law (and 'arrow'/flux of time) and it ensures that no speculative execution or side-channel leakage occurs undetected. In-other words, it gives it 'form', structures it _combinatorically_ and _phenomenologically_; the two are deffinitionally integrable wrt. time, ae. Just as in quantum mechanics, self-adjointness guarantees that measured quantities, in this case, surprise, energy, or logical consistency, are real, observable, and accountable. The bra vectors $|\langle\psi$ are treated here as phenomenological runtime scalars, representing the actual measured cost or residual of a computation, while the kets $|\psi\rangle$ remain the informational state vectors; the inner product $|\langle\psi|\psi\rangle$ thus yields the real-valued thermodynamic action of the system at any given moment.
+This accomplishes a couple of things, it preserves alignment with the Second Law (and 'arrow'/flux of time) and it ensures that no speculative execution or side-channel leakage occurs undetected. In-other words, it gives it 'form', structures it _combinatorically_ and _phenomenologically_; the two are definitionally integrable wrt. time, ae. Just as in quantum mechanics, self-adjointness guarantees that measured quantities, in this case, surprise, energy, or logical consistency, are real, observable, and accountable. The bra vectors $|\langle\psi$ are treated here as phenomenological runtime scalars, representing the actual measured cost or residual of a computation, while the kets $|\psi\rangle$ remain the informational state vectors; the inner product $|\langle\psi|\psi\rangle$ thus yields the real-valued thermodynamic action of the system at any given moment.
 
 This art, if you are chagrin to call it science, leads to a form of CS which is as to Bourbaki or CISCO as Van Helsing is to Catholicism. It might not stick, but for liveliness and because it is already about as exotic as it gets, "Computational Demonology" is the field of study here-defined dedicated to well-founding and well-posing Quine-field theoretic MORPHISMS (not objects; specifically not objects which don't know if they are categories or sets), in addition to all the non-contemporary computational behaviors and positioning ado with the radical art.
 
@@ -252,7 +252,7 @@ https://github.com/user-attachments/assets/0b4a8fe3-14e5-4c2d-a13d-c4e34529aa27
 
 https://github.com/user-attachments/assets/f6f4bfa1-d192-42c5-afea-ffda5e386063
 
-Q2_2026 release is, clearly, not in the cards, appologies. Learned a lesson, though; won't be giving any more estimates. Allow me to aknowledge my failure to meet those non-stipulated goals by depositing into the public sphere, my seminal Essay for Q2_2026.
+Q2_2026 release is, clearly, not in the cards, apologies. Learned a lesson, though; won't be giving any more estimates. Allow me to acknowledge my failure to meet those non-stipulated goals by depositing into the public sphere, my seminal Essay for Q2_2026.
 
 # Quine + Demonology (observer, computor, but who was her?)
 
@@ -466,7 +466,7 @@ Critically, **Western computing remains blind to this paradigm**. Treating Hanzi
 - **Transitions precede sets**: Characters are not elements of a set; they are **orbits under morphological transformation** (e.g., adding 氵 to 工 yields 江, “river”).
 - **Meaning is derived**: No dictionary lookup needed—just decompose, relate, infer.
 
-Thus, Putonghua is not merely a language. It is a **closed noetic system**; a living **MSC**. Being a, previously, "hooked-on-phonics" (which, no-hate; it may be that 'phonics' is 'what it took' to bootstrap the digital age) linguistic ['Western'] novice, like myself, that is just-now learning the Chinese-Language, after a lifetime of basically-ignoring it, it's-all a bit overwhelming and I appologize for any faux pas I may commit and will refrain from pointing and gawking (to-put it mildly; there are real problems associated with this thing I'm attempting to brush-off, right-now). Add-to it the fact that my cognitive horizons are expanding-at the same time as my vocabulary and awarness of Chinese, as-well as my unorthodox style (and project, tbh), can come-off as overly-excited and, regretably-even, Orientalist. The one-defense that I have is that it's not ONLY the Chinese-language, indeed all idea/pictographic, hybrid-phonetic, or other non-phonics-only language demonstrate that morphism-first epistemology is not only possible, but **historically and culturally actualized**, and should I have to go-down fighting with any of my rhetorical cognitive comrades then let it be Jung, specifically, the identity and historical-cultural moment that is the hill I will die-on (and NOT Shopenhauer; allowing-for the reader to read between the lines, rather than stating it outright). The goal of this project is not co-invention, or piracy but **recognition**-of, and further-study and engineering-to; digitize Hanzi not as text, but as **executable morphology**.
+Thus, Putonghua is not merely a language. It is a **closed noetic system**; a living **MSC**. Being a, previously, "hooked-on-phonics" (which, no-hate; it may be that 'phonics' is 'what it took' to bootstrap the digital age) linguistic ['Western'] novice, like myself, that is just-now learning the Chinese-Language, after a lifetime of basically-ignoring it, it's-all a bit overwhelming and I apologize for any faux pas I may commit and will refrain from pointing and gawking (to-put it mildly; there are real problems associated with this thing I'm attempting to brush-off, right-now). Add-to it the fact that my cognitive horizons are expanding-at the same time as my vocabulary and awareness of Chinese, as-well as my unorthodox style (and project, tbh), can come-off as overly-excited and, regrettably-even, Orientalist. The one-defense that I have is that it's not ONLY the Chinese-language, indeed all idea/pictographic, hybrid-phonetic, or other non-phonics-only language demonstrate that morphism-first epistemology is not only possible, but **historically and culturally actualized**, and should I have to go-down fighting with any of my rhetorical cognitive comrades then let it be Jung, specifically, the identity and historical-cultural moment that is the hill I will die-on (and NOT Shopenhauer; allowing-for the reader to read between the lines, rather than stating it outright). The goal of this project is not co-invention, or piracy but **recognition**-of, and further-study and engineering-to; digitize Hanzi not as text, but as **executable morphology**.
 
 ---
 ## §2 MSC/QSD — The Computational Analogue
