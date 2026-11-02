@@ -62,31 +62,27 @@ Disclaimer:
   very architecture.
 -->
 
-# Morphological Source Code (MSC/QSD)
+# Morphological Source Code (MSC&QSD)
 
 - (1) [Gitlab](https://gitlab.com/morphological/source/code)
 - (2) [Github](https://github.com/Morphological-Source-Code)
 
-These 'repositories' and 'art' are Share-Alike Non-Commercial (the source code file(s), themselves, carry BSD 3-Clause):
-
 [![CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC--BY--NC--SA-lightgrey?style=for-the-badge)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-[![Python 3.14+](https://img.shields.io/badge/python-3.14+-blue.svg)](https://www.python.org/downloads/)
-[![Status: Experimental](https://img.shields.io/badge/Status-Experimental-red.svg)](https://github.com/Phovos/Morphological-Source-Code)
-[![Code+File(s): BSD 3-Clause](https://img.shields.io/badge/Code-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+These 'repositories' and 'art' are © Share-Alike Non-Commercial (the source code file(s), themselves, carry BSD 3-Clause).
 
 CommunityLinks: [r/Morphological](https://www.reddit.com/r/Morphological/) | [Phovos@youtube](https://www.youtube.com/@phovos) | [r/Quine](https://www.reddit.com/r/Quine); | [production gitter](https://app.gitter.im/#/room/#production:gitter.im) | [Code of Conduct](https://github.com/Phovos/.github/CODE_OF_CONDUCT.md)
-
-© 2026 <a href="https://gitlab.com/morphological/source/code">Morphological Source Code</a> <a href="https://github.com/Morphological-Source-Code">&</a> Quineic Statistical Dynamics is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en">CC BY-NC-SA 4.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;">
 
 © 2023-2026 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Status: Experimental](https://img.shields.io/badge/Status-Experimental-red.svg)](https://gitlab.com/morphological/source/code)[![Python 3.14+](https://img.shields.io/badge/Python-3.14+-3776AB.svg?logo=python)](https://www.python.org)![Views](https://source-code.phovos.workers.dev/badge)
 
+<img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;">© 2026 <a href="https://gitlab.com/morphological/source/code">Morphological Source Code</a> <a href="https://github.com/Morphological-Source-Code">&</a> Quineic Statistical Dynamics © licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en">CC BY-NC-SA 4.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;">
+
 <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;"> © 2024-2026
-<a href="https://github.com/Phovos">MSC & QSD</a> © licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en">CC BY-ND-SA 4.0</a> by <a href="https://github.com/Phovos">Phovos</a> <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;">
+<a href="https://github.com/Phovos">MSC&QSD</a> © licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en">CC BY-ND-SA 4.0</a> by <a href="https://github.com/Phovos">Phovos</a> <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;">
 
 <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;"> © 2023-2026
-<a href="https://github.com/MOONLAPSED/">MSC & QSD</a> © licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en">CC BY-ND-SA 4.0</a> by <a href="https://github.com/MOONLAPSED/">MOONLAPSED</a> <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;">
+<a href="https://github.com/MOONLAPSED/">MSC&QSD</a> © licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en">CC BY-ND-SA 4.0</a> by <a href="https://github.com/MOONLAPSED/">MOONLAPSED</a> <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;">
 
 **A CPython standard-library-only framework for morphological computation with hermitian type semantics**
 **Welcome to the root of the Morphological Source Code (MSC) repository!**
