@@ -5,7 +5,7 @@ license-doc(s)+dist: CC BY-ND-SA 4.0
 license-code+file(s): BSD 3-Clause
 root: "/Morphological-Source-Code/.github"
 name: "README.md"
-version: 0.2.61
+version: 0.2.62
 aliases:
   - msc
   - qsd
@@ -32,12 +32,92 @@ topics:
       (4) Private "ensemble(s)"/"configuration(s)" are operator's IP, until revealed/released.
         - Privacy of your Quineic output is, therefore, your prerogative. CC0 carries, after 'escape'/release.
 ---
-<!-- For Markdown+Yaml interop, the following should be in the 'frontmatter', above, however it doesn't work on github: link: "[/profile/README.md](/profile/README.md)"-->
-<!-- This document uses YAML front matter for metadata management in a third-party tool not git: 
+<!-- This document uses mandatory YAML front matter for metadata management in a third-party tool.
+
+The directory this file resides-in is a cognitive, nominative playground; nominally a 'KnowledgeBase' with 'kb' "articles". An example of another 'article' in this directory: [[recapitulatingADSCFT.md]]
+
+Navigation and location of these files (information) is subject to change, though, information content should remain semantically-versioned. As-such, each .md file in this directory should follow a strict markdown ontology, not-disimilar from XML.
+
+<pre style="white-space: pre; font-family: monospace; overflow-x: auto;">
+```md
+# §0.     "'top'level"
+## §0.    "heading"
+### §0.   "'sub'heading"
+#### §0.  "'4#'second-subheading"
+##### §0. "'5#'third-subheading"
+```
+</pre>
+
+Structural Emergence of 'precedence':
+
+Morphological metric math also applys to syntax and what we call language (matter of fact, this project applies first to language and then to math, in the Jungian-sense), and even discourse. Sentence grammar, and structure, etc. being something of a given, considering you are reading this, so let's utilize the standard markdown header ontology as an example of Morphological Metric, where intensive well-foundedness can proceed from boundary (linguistic) referents. I must digress, because we are simply talking about the reason why 'sections' are all 'zero':
+
+```md
+# §0.
+## §0.
+### §0.
+````
+
+does not mean:
+
+```txt
+toplevel
+heading
+subheading
+```
+
+but rather (for example):
+
+```txt
+principal axis
+local deformation
+higher-order refinement
+```
+
+The rendered ordinals:
+
+```txt
+1
+1.1
+1.1.1
+```
+
+are merely observable projections of a deeper traversal state; projections of accumulated traversal state. They could just as-easily be:
+
+```txt
+2
+2.2
+2.2.2
+```
+
+Or any countable combination-thereof. It's a morphosemantic successor functional.. architecture.
+
+Thus:
+
+> ordinal meaning SHALL NOT be authored directly.
+> ordinal meaning MUST emerge from structural position.
+
+A section acquires identity from:
+
+- its ancestry,
+- its sibling adjacency,
+- its traversal history,
+- and its depth-transition relative to neighboring regions.
+
+You may find this terribly pedantic, but I assure you it is necessary to lay these fundementals as a foundation to build increasingly complex structures. We are mapping the cartogrophy of our 'home language'. One can just think of it as a very low-resolution 'DOM'.
 
 # Best practices:
-- Utilize camelCase for internal source code (lowerFirst; not CamelCase)
+- Utilize CamelCase for internal source code (CamelCase; NOT lowerFirst)
 - Utilize CAPS_CASE for ffi funcs and external source
+- All directories that contain Markdown files with multimedia should include a `/media/` subdirectory for files (images, audio, video) that those Markdown files reference.
+
+To utilize multimedia inside markdown:
+
+`![description](/code/public/media/filename.png)`
+
+![](/docs/essays/media/image.jpg)
+
+> This repository uses standard GitHub Flavored Markdown. Links use `[text](url)` syntax.
 
 # Frontmatter Implementation
  - Utilize 'frontmatter' to include the title and other `property`, `tag`, etc. in the knowledge base article(s).
@@ -52,7 +132,7 @@ topics:
       ---
       ``` """
 
-Disclaimer:
+# §0 (cognitive)Disclaimer:
   Broad-strokes, painting cultural, scientific, philosophical,
   and historiographical analogy and abstraction are layered onto
   the page with the goal of instrumenting the author's own
@@ -60,6 +140,33 @@ Disclaimer:
   Don't quote me expecting there is anything more there than is there
   because this is not authoritative in any fashion outside of this
   very architecture.
+
+# §0. 'MSC & QSD': Abstract (The repo, epistemology)
+
+Morphological Source Code and Quineic Statistical Dynamics are the CPython and C appendages of a multi-year conquest of dimensionality and process ontology (formerly) known as "Cognosis". `Cognosis` (circa 2022), began research of an experimental framework that explores the dynamic evolution of software architectures and capabilities 'during runtime (modeled-as 'fitness'; defined-by 'motility')'. It aims to combine the fluidity of human-centric interactions, like an interactive video game, with the stability of traditional code, CLI, scripting, and continuous integration and continuous development. Homoiconism and data-oriented design manifest as the substrate for a truly-agentic, conjugative 'field theory' of 'cognitive agency', if you will; code adapts and changes in response to user interactions, particularly those leveraging natural language processing (NLP) and phenomenology; here referring, specifically, to the process ontology of machine learning, but also to that of a conscious observer able to exist before and after any given event: a cognitive wave function.
+
+Certain stiled-notions, in this architecture, which might be considered throw-back (or worse), are contextualized (and justified, by the Author) in the milieu of an 'industry' that is of fundemental disquiet with itself. While nostalgia and such motivations are sometimes appealing, the root of this, perhaps anachronistic-stilting, is that I think my father could have written this software before I was even born, since almost nothing has been 'discovered' in digital engineering, or naturalized epistemology of synthetic 'systems'/'logic since the, practically, Civil Rights Movement. If I had to specify and commit to an inflection-point, prior even to my birth, and date myself-thusly, then it was Ken Thompson's "Trusting Trust" (1984). It revealed a fundamental epistemological crisis in computation: *you cannot verify a compiler without trusting another compiler*. This creates an infinite regress of trust. It's 'turtles all the way down'.
+
+Morphological Source Code presumes Thompson's problem is not merely technical but ontological. It parallels Kant's noumenon problem (the thing-in-itself is inaccessible to cognition). Morphological Source Code (MSC) combined with Quineic Statistical Dynamics (QSD) are the combined-dynamics of a cognitive, motile, and topological pathway through this crisis; overland and river, by making trust observable, measurable, and topologically bounded.
+
+## §0. 'Gnosis'
+
+If Cognosis established the process of abstract integration of theory, rhetoric and idealogy, it was inherently occult, credulous, and Jungian ("cognitive", in-other words; but-truly 'archetypal' is what is meant). The Gnostic kernel it precipitated was however useful. The Pleroma, Abraxas, and the Demiurge serve as the three holoicons of the architecture; mapping respectively to epistemology (T/Type), ontology (V/Value), and phenomenology (C/Captain   computor insofar as Entscheidungsproblem). This tripartite casuistry is the Noetherian-Machian aether within which the ByteWord's gauge topology evolves. The architecture does not claim these mappings are traditional or even non-synthetic; only that they are well-founded up to the holographic bound (Δ⁴). The names Pleroma, Abraxas, and the Demiurge are borrowed from Gnostic tradition but redefined here as architectural holoicons. They are boundary-anchored referents that compress otherwise ineffable degrees of freedom, a morphic (phenomenological/topological) external derivative calculus. 
+
+- Pleroma: The fullness of knowable form. Maps to epistemology and the Type field (T) in the ByteWord: what can be said.
+- Abraxas: The generative, paradoxical mediator between fullness and lack. Maps to ontology and the Value field (V): what is the case, deputizable under absorption.
+- The Demiurge: The flawed craftsman of the material cognitive substrate. Maps to phenomenology and the Captain bit (C, computor, the wave function observer/collapser; pays the demons (Landauer's and Maxwell's)): the thermodynamic boundary between radiative and absorptive phases, the quantum/classical cut made geometric.
+
+Scope, being a sick joke of a concept when you think about it, is one of the eternal curses of this endeavor. The notions of the Pleroma, Abraxas, and the Demiurge serve as the knowable forms of the unknowable   the "Gnosis" within "Cognosis" and act as bounds on the knowable (epistemology) and therefore the beable (ontology). The fundamental Jungian kernel of such a bounding mechanism gives shape and form to these gnostic entities, both through one's own actions and through all universal, even unknowable, degrees of freedom.
+
+These Gnostic entities are archetypes of archetypes. The well-foundedness of any given situation can be determined, up to isometry, with these variable fundamental constraints. If one cannot, for whatever reason, stomach Jung, then I am happy to inform you that there is someone you will probably dislike even more (other than Kant) who could help situate your faculties to the present task of describing a universal field theory which incorporates all degrees of freedom, language, and logic: his name is Schopenhauer.
+
+The Pleroma, Abraxas, and the Demiurge are elements of the variable universal characteristic function of a Noetherian, Machian, indeed multi-cosmic framework. Such a theory has one advantage over contemporary metaphysics: no zero-point energy catastrophe, nor the ill-foundedness of certain electrodynamic assumptions. This being an introduction and therefore incapable of earning your credulity, I urge you to read Dr. Jacob Barandes's Indivisible Stochastic Quantum Mechanics if the mention of such a "founding of the ill-founded" has excited you too much. He is a genius, and your awe should be directed at him   he has a working theory, unlike this in-process software and epistemology project. There is indeed hope of attaining the absurdly lofty goals laid out herein, but the academic wait (thankfully) belongs not to me. In my opinion, it is important to state, considering I have never met nor corresponded with Senpai and he does not notice us.
+
+There is an assumption inherent in the project that a neural network is a cognitive system. The assumption is that there is something for this cognitive system to do in any given situation, and that it is the cognitive system's job to figure out what that thing is. Upon location of its head or parent, it either orients itself within a cognitive system or creates a new cognitive system. The calling convention and morpho-topology of cognitive systems, including how they pass namespaces, syntaxes, and other cognitive systems as parameters, is detailed in CPython; Python's `kwargs` are used to pass these parameters.
+
+The challenge of this architecture lies in the cognitive lambda calculus needed to bring these runtimes into existence and evolve them. It is not insurmountable, Dr. Barandes has proven by well-founding an ontology-less epistemology whose classical limit is the standard model of particle physics. If he is right, and this architecture is right about why he is right, then the only thing left to do is iterate. The scientific method, at this point, has done its job. Only the engineer's method and Will are required now.
+
 -->
 
 # Morphological Source Code (MSC&QSD)
