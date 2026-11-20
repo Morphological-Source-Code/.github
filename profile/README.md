@@ -197,7 +197,7 @@ CommunityLinks: [r/Morphological](https://www.reddit.com/r/Morphological/) | [Ph
 
 [ByteWord note] The philosophical positioning in §0 is the *grounding* of the morphic operation specified in the Morphological Source Code. §0 names *why* the operation is needed (the Kantian bottleneck, the Quinean asymmetry, the thoracic retrospective); the ByteWord specification names *how* the operation is instantiated.
 
-## §0.1 The Kantian Bottleneck
+## §0. The Kantian Bottleneck
 
 Kantian ontology created a philosophical bottleneck for naturalized epistemology. By fixing the limits of knowledge within subjectivity, the forms of intuition (space/time) and the categories of understanding, Kant denied access to the noumenon, the thing-in-itself.
 
@@ -212,7 +212,7 @@ Quine's naturalized epistemology sought to dissolve the analytic/synthetic disti
 
 The diagnosis: **epistemology got naturalized without metaphysics getting quantumized; language got deconstructed without being rooted in will, morphology, and collective-unconscious emergence.**
 
-### §0.2 Quine's Revenge
+### §0. Quine's Revenge
 
 The traditional computer-science view separates two domains:
 
@@ -223,7 +223,7 @@ These are treated as separate domains. You must choose one perspective.
 
 This separation is the computational residue of the dogma Quine identified in *Two Dogmas of Empiricism* (1951). For three generations, software architecture has assumed a fundamental boundary between "the logic of the machine" and "the logic of the application." Every framework that enforces Model/View/Controller, or separates "code" from "data," or treats "business logic" as the serious work while dismissing self-reference as obscurantism, operates under this bifurcation. It is the same dogma, ported to runtime.
 
-### §0.3 Schopenhauer and Jung as Correctives
+### §0. Schopenhauer and Jung as Correctives
 
 Two philosophical correctives bridge Kant's gap.
 
@@ -239,7 +239,7 @@ Two philosophical correctives bridge Kant's gap.
 
 [pedagogy note] The assignment of Schopenhauer's Will to the costly/actualizing pole and Jung's archetypes to the free/potential pole is a **modeling choice made for pedagogical reasons**, not a derivation. The inverse assignment is equally defensible on philosophical grounds. The choice is made here because it foregrounds the *cost* of actualization (the Will as expenditure) and the *freedom* of the forms (the archetypes as inherited potential); a reader who prefers the inverse is able to prefigure the pedagogy for either concern. The "Thoracic Retrospective" is foreign pedagogy but it works remarkably well, here.
 
-### §0.4 Transcendental Naturalism
+### §0. Transcendental Naturalism
 
 Together, Schopenhauer and Jung reframe Kant's categories as **morphogenetic attractors**, not metaphysical necessities. The claim is that Kant's categories are *better modeled* as forms that emerge from dynamics than as forms that precede dynamics.
 
@@ -248,7 +248,7 @@ Where Kant blocked the gate to the noumenal, Schopenhauer and Jung open a hidden
 ---
 
 ## §0 Thoracic Retrospective
-### §0.1 Decoherence as tracing-out
+### §0. Decoherence as tracing-out
 
 Decoherence is the process by which a quantum system entangles with its environment, causing the off-diagonal terms of the system's density matrix — in a preferred basis — to decay toward zero. The preferred basis is the **pointer basis**: the set of states the environment can distinguish, the states that leave a trace. The result is that the system *appears* to be in a classical mixture (a statistical distribution over pointer states) even though the global state (system + environment) remains pure and unitary.
 
@@ -256,7 +256,7 @@ Decoherence is therefore a **tracing-out**: the partial trace over the environme
 
 The Jungian reading: the pointer basis is the **archetype** (the form that carries the state across the gap between unconscious and conscious), and decoherence is **individuation** (the process by which the global becomes the local). The hermeneutic reading: the pointer basis is the **interpretive frame**, and decoherence is the **reading** (the process by which the observer forgets the environment in order to read the system). Both readings are instances of the same morphic operation at different levels.
 
-### §0.2 Skeleton and behavior
+### §0. Skeleton and behavior
 
 The skeleton is **linear**: rigid segments, pin joints, a linear configuration space. Behavior is **nonlinear**: locomotion, respiration, and fitness are nonlinear functions of the joint angles and the environment. The skeleton is what *allows* the nonlinearity to burst forth, by fixing the degrees of freedom the behavior exploits.
 
@@ -268,7 +268,7 @@ The thoracic retrospective is therefore the **skeleton of the agent** in exactly
 
 The question *Is decoherence an artifact of the skeleton, or is the skeleton an artifact of decoherence?* is not cogent without asking what the "artifact" is precisely: **the artifact is the tracing-out, not the pointer basis and not the environment.** The pointer basis is the chart; the environment is the coupling; the tracing-out is the carrying; and the carrying is chart-independent ('motility'). The answer is that neither is more real than the other, both are charts, and the carrying is the thing.
 
-### §0.3 The decoherence/lightcone congruence
+### §0. The decoherence/lightcone congruence
 
 Decoherence and the phenomenological lightcone are both **derived cones**: the cone is a consequence of the dynamics, not a fundamental structure of the manifold. The trichotomy is:
 
@@ -586,12 +586,19 @@ As we look towards the future of computational systems, we must ask ourselves wh
 
 ___
 ---
-___
 
+# §0. Intro-to Spinor-magic
 
----
+First, on-Gödel; incompleteness is a property of _formal systems_, not of a set of quines. Definitionally: "The system is _expressive enough_ that its self-reference doesn't generate undecidable sentences" i.e., _self-referential closure without diagonalization blowup_. It's why quines exist at all: the fixed-point combinator dodges Gödel.
 
-# §0. Intro-to Spinor-magic 
+> A quine is precisely a term whose diagonalization is itself.
+
+But this raises significant questions about existing theory in mathematics, for example **Peano arithmetic** (a formal system where the quine/Gödel distinction is sharp). The cleaner statement is not in set theory but in **category theory**: **the Hermitian involution's image**.
+
+> The quine property gives you f-fixed points; Hermitian gives you ι-fixed points.
+> 
+> The **Hermitian involution** is `ι=complement∘reverse`, not the dynamical pre-image f−1. The image of a quine q under ι is ι(q), and **the fixed-point set is closed under ι** (because ι is an involution). The conjugate of a quine is a quine.
+
 ## §0. Recapitulating ENTSCHEIDUNGSPROBLEM and Von Neumann architecture 80 years later
 
 Definition 1 (Bulk Morphogenesis):
