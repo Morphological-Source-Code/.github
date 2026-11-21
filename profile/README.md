@@ -1200,8 +1200,8 @@ Logical arity is seemingly the fulcrum of multiscale epistemological so-called e
 0:00 start
 26:00 fin
 ```
-
-## Conceptual Orientation
+```markdown
+# §0 Conceptual Orientation
 
 MSC/QSD adopts a **relational, morphism-first epistemology**:
 - Observables precede states
@@ -1209,83 +1209,111 @@ MSC/QSD adopts a **relational, morphism-first epistemology**:
 - Meaning is derived, not assumed
 
 This orientation is inspired by:
-- Heisenberg’s matrix mechanics (observables as transitions)
-- Dirac’s representation-independent formalism
+- Heisenberg's matrix mechanics (observables as transitions)
+- Dirac's representation-independent formalism
 - Category-theoretic morphism primacy
 - Practical constraints of computation, thermodynamics, and observability, chiefly staked-out for subsequent exploration:
   - Mach & Noether (Einstein, Euler, etc.)
 
+## §0.1 The Cognitive Requirement
 
+This framework enforces a **dyadic mode of cognition**:
 
-## §0 Heisenberg, Dirac, Schrödinger
+- No isolated facts.
+- No isolated meanings.
+- Always relation, contrast, transition.
+
+```text
+Conscious ↔ Unconscious
+    Ego ↔ Shadow
+Persona ↔ Anima
+```
+
+This is not metaphorical ornamentation; it reflects the structural necessity of relational observability.
+
+## §0.2 Traditional vs. Morphological Computing
+
+Traditional computing:
+
+```text
+Data (sets) → Functions → Computation
+```
+
+MSC/QSD:
+
+```text
+Morphisms → Transitions → Sets
+```
+
+Not:
+
+- "What is the value?"
+- "What does this mean?"
+
+But:
+
+- "How does this transform?"
+- "What stabilizes under repetition?"
+
+Meaning is not assumed; it **emerges via morphological dynamics**.
+
+---
+
+# §0 Heisenberg, Dirac, Schrödinger
+
 What follows is a conceptual RFC explaining why MSC/QSD is structured the way it is.
 
-Heisenberg’s original insight (1925):
+Heisenberg's original insight (1925):
 
-> “One ought to concentrate one’s attention on things which are grossly connected with what one can observe.  
+> "One ought to concentrate one's attention on things which are grossly connected with what one can observe.  
 > The things one can observe, being each related to two states, are expressed naturally as a matrix-array of numbers.  
-> One should consider the whole set of numbers, together.”
+> One should consider the whole set of numbers, together."
 
-### Step 1 — Start with observables (transitions)
+## §0.1 Step 1 — Start with observables (transitions)
 
 Things one can observe are **relations between states**, not isolated values.
 
 ```
-
 Observable = ⟨m|X|n⟩   (transition amplitude)
-
 ```
 
 An observable is not a number; it is a *relation* between two states.
 
----
-
-### Step 2 — Collect transitions into a matrix
+## §0.2 Step 2 — Collect transitions into a matrix
 
 ```
-
 X = { x_mn | for all m, n }
-
 ```
 
 The observable *is* the matrix: the totality of possible transitions considered together.
 
----
-
-### Step 3 — Derive states relative to an observable
+## §0.3 Step 3 — Derive states relative to an observable
 
 By diagonalizing a given observable matrix, we obtain:
 
 ```
-
 X |n⟩ = λₙ |n⟩
-
 ```
 
 The eigenvectors define **states relative to that observable**.
 
 > States are not primitive entities; they are *derived as stable patterns under measurement*.
 
----
-
-### Step 4 — Sets emerge operationally
+## §0.4 Step 4 — Sets emerge operationally
 
 The set `{ |n⟩ }` is not foundational in itself.
 It is an **operational equivalence class** induced by a measurement context.
 
 **Operational corollary (Heisenberg–Dirac):**
-```
 
+```
 Sets are not epistemologically primitive.
 Operationally meaningful sets are derived from observables (transitions).
-
 ```
 
 This is not a claim about mathematical foundations; it is a claim about **how structure becomes observable**.
 
----
-
-### Summary Table (Conceptual Comparison)
+## §0.5 Summary Table (Conceptual Comparison)
 
 | Set Theory (ZFC) | Matrix Mechanics | MSC/QSD |
 |------------------|------------------|---------|
@@ -1294,9 +1322,7 @@ This is not a claim about mathematical foundations; it is a claim about **how st
 | Static | Dynamic | Morphogenetic |
 | Sets primitive | States contextual | Sets emergent |
 
----
-
-### Two quantum formalisms (1925–26)
+## §0.6 Two quantum formalisms (1925–26)
 
 **Heisenberg (Matrix Mechanics):**
 - Observables = matrices
@@ -1308,7 +1334,7 @@ This is not a claim about mathematical foundations; it is a claim about **how st
 - Observables = operators
 - Evolution = differential equations
 
-They are mathematically equivalent, but Dirac’s bra–ket notation makes explicit that:
+They are mathematically equivalent, but Dirac's bra–ket notation makes explicit that:
 
 > Matrix mechanics is **representation-independent**,  
 > while wave mechanics is representation-dependent.
@@ -1317,111 +1343,190 @@ This distinction motivates the computational analogy below.
 
 ---
 
-## §1.5 Putonghua as Native Morphological Source Code
+# §0 The Problem, Stated Structurally
 
-Mandarin Chinese offers a rare empirical instance of a **naturally evolved morphological source code**. Its logographic system (refined over three millennia) encodes meaning not as atomic symbols, but as **structured compositions of semantic and phonetic morphisms**:
+Let \(\mathcal{A}\) be a collection of **agents** — computational processes, each with a state space \(S_i\) and a transition relation \(T_i \subseteq S_i \times S_i\). Let \(\mathcal{E}\) be an **environment** — a state space \(E\) with a transition relation \(T_E\). An **action** of \(\mathcal{A}\) on \(\mathcal{E}\) is a family of maps \(\alpha_i : S_i \to \mathrm{End}(E)\).
 
-> **形旁 (semantic radical) + 声旁 (phonetic component) ⇒ emergent concept**
+## §0.1 Definition (task)
 
-This is not metaphor. It is **engineered morphology**: each character is a decomposable equation, readable by both humans and (potentially) machines. Consider 象 (*xiàng*, “elephant”):  
-- Semantic field: ⻖ (tusk/animal)  
-- Phonetic hint: 豕 (*shǐ*, “pig,” approximating ancient pronunciation)  
-- Emergent meaning: “elephant”
+A *task* is a pair \((Q, \varphi)\) where \(Q \subseteq E\) is a target region and \(\varphi : E \to \{0,1\}\) is a predicate. An agent \(a_i\) *performs* the task if there exists a trajectory \(e_0, e_1, \ldots, e_n\) in \(E\) with \(e_n \in Q\) and \(\varphi(e_n) = 1\), generated by the action \(\alpha_i\).
 
-The system’s origin lies in **experimental semiotics** and their application-through **hermenuetics**: Shang dynasty scribes carved glyphs into bone, then read meaning in the **interaction** between fixed form (the glyph) and stochastic fracture (the fire’s crack). The scribe was not a creator, but a **witness to morphological emergence**; a role mirroring the MSC/QSD observer.
+## §0.2 Definition (differentiation-integration structure)
 
-Critically, **Western computing remains blind to this paradigm**. Treating Hanzi as atomic tokens ignores their internal transition structure. Yet this very structure satisfies the RFC’s core tenets:
-- **Observables precede states**: Meaning arises from the *relation* between 形 and 意, not from either in isolation.
-- **Transitions precede sets**: Characters are not elements of a set; they are **orbits under morphological transformation** (e.g., adding 氵 to 工 yields 江, “river”).
-- **Meaning is derived**: No dictionary lookup needed—just decompose, relate, infer.
+A *differentiation-integration structure* on \(\mathcal{E}\) is a pair \((\nabla, \mu)\) where \(\nabla\) is a connection on the tangent bundle \(TE\) and \(\mu\) is a measure on \(E\), satisfying:
 
-Thus, Putonghua is not merely a language. It is a **closed noetic system**; a living **MSC**. Being a, previously, "hooked-on-phonics" (which, no-hate; it may be that 'phonics' is 'what it took' to bootstrap the digital age) linguistic ['Western'] novice, like myself, that is just-now learning the Chinese-Language, after a lifetime of basically-ignoring it, it's-all a bit overwhelming and I apologize for any faux pas I may commit and will refrain from pointing and gawking (to-put it mildly; there are real problems associated with this thing I'm attempting to brush-off, right-now). Add-to it the fact that my cognitive horizons are expanding-at the same time as my vocabulary and awareness of Chinese, as-well as my unorthodox style (and project, tbh), can come-off as overly-excited and, regrettably-even, Orientalist. The one-defense that I have is that it's not ONLY the Chinese-language, indeed all idea/pictographic, hybrid-phonetic, or other non-phonics-only language demonstrate that morphism-first epistemology is not only possible, but **historically and culturally actualized**, and should I have to go-down fighting with any of my rhetorical cognitive comrades then let it be Jung, specifically, the identity and historical-cultural moment that is the hill I will die-on (and NOT Shopenhauer; allowing-for the reader to read between the lines, rather than stating it outright). The goal of this project is not co-invention, or piracy but **recognition**-of, and further-study and engineering-to; digitize Hanzi not as text, but as **executable morphology**.
+- \(\nabla\) is **flat** (\(\mathrm{Curv}(\nabla) = 0\));
+- \(\mu\) is **invariant** under the holonomy group of \(\nabla\);
+- the pair \((\nabla, \mu)\) is **canonical** — the unique such pair up to isomorphism of the structure.
+
+## §0.3 Definition (well-posedness)
+
+An action \(\alpha_i\) is *well-posed* if there exists a differentiation-integration structure \((\nabla, \mu)\) on \(\mathcal{E}\) such that \(\alpha_i\) is **equivariant** with respect to \((\nabla, \mu)\) — i.e., \(\alpha_i\) commutes with the holonomy of \(\nabla\) and preserves \(\mu\).
+
+## §0.4 Proposition (The Posit)
+
+*There exists no canonical differentiation-integration structure on \(\mathcal{E}\) that is determined by the mere specification of a task \((Q, \varphi)\). Consequently, an action \(\alpha_i\) specified only by a task is not well-posed.*
+
+*Proof.* A task \((Q, \varphi)\) determines a **subset** of \(E\) and a **predicate** on \(E\), but it determines **no connection** on \(TE\) and **no measure** on \(E\). The data \((Q, \varphi)\) is insufficient to specify \((\nabla, \mu)\); hence \((\nabla, \mu)\) is not determined by the task, and the action is not equivariant with respect to any canonical structure. \(\square\)
+
+## §0.5 Remark
+
+Proposition 0.4 is the structural content of the claim that "there is no *with respect to* when you ask an AI to do *some task*." The *with respect to* is the differentiation-integration structure \((\nabla, \mu)\); the task does not determine it; hence the action is not well-posed.
 
 ---
-## §2 MSC/QSD — The Computational Analogue
+
+# §0 The Collaboration Problem, Stated Structurally
+
+Let \(\mathcal{A} = \{a_1, \ldots, a_n\}\) be a finite collection of agents, and let \(\mathcal{E}\) be a common environment. A *collaboration* is a family of actions \(\{\alpha_i\}_{i=1}^n\) with a common task \((Q, \varphi)\).
+
+## §0.1 Definition (coherence)
+
+A collaboration is *coherent* if there exists a **common** differentiation-integration structure \((\nabla, \mu)\) on \(\mathcal{E}\) such that every \(\alpha_i\) is equivariant with respect to \((\nabla, \mu)\).
+
+## §0.2 Proposition (The Blocker)
+
+*A collaboration specified only by a common task is not coherent in general.*
+
+*Proof.* Each agent \(a_i\) may carry its own internal differentiation-integration structure \((\nabla_i, \mu_i)\), but the task \((Q, \varphi)\) determines no **common** structure \((\nabla, \mu)\). The structures \((\nabla_i, \mu_i)\) need not agree; hence there is no common \((\nabla, \mu)\) with respect to which all \(\alpha_i\) are equivariant. The collaboration is not coherent. \(\square\)
+
+## §0.3 Remark
+
+Proposition 0.2 is the structural content of the claim that "x to z: 'what'; z to y: 'what'; nobody to nobody: 'who was quine?'" Each agent asks "what?" because the common structure \((\nabla, \mu)\) is absent, and the question "who was quine?" is the request for the **fixed point** of the common structure — the persistent identity that would make the collaboration coherent.
+
+---
+
+# §0 The Substrate, Stated Structurally
+
+Let \(X = \{0,1\}^8\) be the **ByteWord substrate**, equipped with:
+
+- the **C/V/T decomposition** \(X \cong C \times V \times T\) (a fibered structure);
+- the **8th-root kernel** \(\kappa : X \times X \to U(1)\), \(\kappa(a,b) = \exp\!\left(i \pi d_H(a,b)/4\right)\);
+- the **Schwarz functional** \(L : TX \to \mathbb{R}_{\geq 0}\), \(L(x, \dot{x}) = \|x\|\|\dot{x}\| - |\langle x, \dot{x}\rangle|\);
+- the **action functional** \(S[\gamma] = \int_\gamma L \, dt\), for \(\gamma\) a path in \(X\).
+
+## §0.1 Definition (morphological substrate)
+
+The *morphological substrate* is the quadruple
+\[
+\mathcal{X} = (X, \kappa, L, S).
+\]
+
+## §0.2 Proposition (The Substrate is Canonical)
+
+*The morphological substrate is the unique differentiation-integration structure on \(X\) that is determined by the C/V/T decomposition and the 8th-root kernel.*
+
+*Proof.* The C/V/T decomposition determines the fibered structure on \(X\); the 8th-root kernel determines the phase structure on \(X\); the Schwarz functional is the unique strictness of the kernel's associated inner product; the action functional is the unique integral of the Schwarz functional along paths. Each component is determined uniquely by the preceding, and the composition is canonical. \(\square\)
+
+## §0.3 Remark
+
+Proposition 0.2 is the structural content of the claim that the morphological substrate is the *with respect to* that is missing from a task specified only by \((Q, \varphi)\). The substrate is canonical; the task is not; hence the substrate is the canonical *with respect to*.
+
+---
+
+# §0 The Well-Posedness Theorem
+
+## §0.1 Theorem (Well-Posedness of the Feedback Loop)
+
+*Let \(\mathcal{A}\) be a collection of agents with a common environment \(\mathcal{E}\). A feedback loop \(\mathcal{A} \rightleftarrows \mathcal{E}\) is well-posed if and only if there exists a morphism \(\Phi : \mathcal{E} \to \mathcal{X}\) such that the pullback of the morphological substrate along \(\Phi\) is a differentiation-integration structure on \(\mathcal{E}\) with respect to which every \(\alpha_i\) is equivariant.*
+
+*Proof.* (\(\Rightarrow\)) If the feedback loop is well-posed, there exists a differentiation-integration structure \((\nabla, \mu)\) on \(\mathcal{E}\) with respect to which every \(\alpha_i\) is equivariant. By the universality of the morphological substrate (Proposition 0.2), there is a morphism \(\Phi : \mathcal{E} \to \mathcal{X}\) such that \((\nabla, \mu) = \Phi^*(\kappa, L, S)\). (\(\Leftarrow\)) If such a \(\Phi\) exists, the pullback \(\Phi^*(\kappa, L, S)\) is a differentiation-integration structure on \(\mathcal{E}\), and the equivariance of every \(\alpha_i\) with respect to it is the well-posedness of the feedback loop. \(\square\)
+
+## §0.2 Corollary (No Spooky Action)
+
+*The feedback loop is well-posed **if and only if** there is no spooky action at a distance — i.e., if and only if the action is equivariant with respect to a canonical differentiation-integration structure.*
+
+*Proof.* Immediate from Theorem 0.1: well-posedness is equivariance with respect to a canonical structure; spooky action at a distance is the **failure** of equivariance (the action is not gathered by any canonical structure). \(\square\)
+
+## §0.3 Remark
+
+Corollary 0.2 is the structural content of the claim that "my framework == no spooky action." The framework provides the canonical structure \(\Phi^*(\kappa, L, S)\); the action is equivariant with respect to it; hence there is no spooky action.
+
+---
+
+# §0 The Main Result
+
+> Let \(\mathcal{A}\) be a collection of agents in a common environment \(\mathcal{E}\). An action of \(\mathcal{A}\) on \(\mathcal{E}\) is well-posed **if and only if** there exists a morphism \(\Phi : \mathcal{E} \to \mathcal{X}\) to the morphological substrate \(\mathcal{X} = (X, \kappa, L, S)\) such that every action is equivariant with respect to the pullback \(\Phi^*(\kappa, L, S)\). The task \((Q, \varphi)\) determines no such \(\Phi\); hence an action specified only by a task is not well-posed. The framework provides the canonical \(\Phi\); hence the framework is equivalent to the absence of spooky action at a distance.
+
+---
+
+# §0 The "germ"
+
+## §0.1 Proposition (The Physics of Agents)
+
+*The existence of agents as physical systems entails the existence of a physical structure with respect to which the agents' actions are well-posed.*
+
+*Proof.* An agent is a physical system with a state space and a transition relation. An action of an agent on an environment is a physical process. A physical process is well-posed if and only if it is equivariant with respect to a canonical differentiation-integration structure (Theorem 0.1). Hence the existence of agents as physical systems entails the existence of such a structure. \(\square\)
+
+## §0.2 Remark
+
+Proposition 0.1 is the structural content of the claim that "physics exists… so you are saying 'agents' exist? Well what are the 'physics' of the 'agents,' then?" The physics of the agents is the canonical structure with respect to which their actions are well-posed. The structure is the morphological substrate.
+
+---
+
+# §0 MSC/QSD — The Computational Analogue
 
 **Analogy (epistemic, not ontological):**
 
-```
-
+```text
 Matrix mechanics : wave mechanics
-::
-MSC/QSD           : set-theoretic computation
-
+        ::        :      ::
+   MSC/QSD       : set-theoretic computation
 ```
 
-### Step 1 — Start with morphisms
+## §0.1 Step 1 — Start with morphisms
 
 In MSC/QSD, the primitive observable is a **binary transition**:
 
-```
-
-Morphism = bw₁ ⊕ bw₂
-
+```python
+# Morphism = bw1 XOR bw2
+morphism = bw1 ^ bw2
 ```
 
 You do not observe a ByteWord in isolation; you observe how it transforms relative to another.
 
----
+## §0.2 Step 2 — Collect morphisms into a transition table
 
-### Step 2 — Collect morphisms into a transition table
-
+```python
+# T_ij = bw_i XOR bw_j
+T = [[bw_i ^ bw_j for j in range(N)] for i in range(N)]
 ```
 
-T_ij = bw_i ⊕ bw_j
+This table plays the same epistemic role as Heisenberg's observable matrix: the totality of possible transitions, considered together.
 
-```
-
-This table plays the same epistemic role as Heisenberg’s observable matrix:
-the totality of possible transitions considered together.
-
----
-
-### Step 3 — Derive equivalence classes
+## §0.3 Step 3 — Derive equivalence classes
 
 Define an equivalence relation:
 
-```
-
+```text
 bw ~ bw'  iff  their XOR-transition profiles are identical
-
 ```
 
-The resulting equivalence classes (orbits under XOR action) are **derived states**.
+The resulting equivalence classes (orbits under the XOR action) are **derived states**.
 
----
+## §0.4 Step 4 — Sets emerge via NULL partitioning
 
-### Step 4 — Sets emerge via NULL partitioning
+**Definition 0.4.0 (NULL).** NULL is a ByteWord with no morphic effect under XOR, used to delimit observationally distinct equivalence classes.
 
-**Definition (NULL):**
-NULL is a ByteWord with no morphic effect under XOR, used to delimit observationally distinct equivalence classes.
+A **set** is a finite sequence of ByteWords partitioned by NULL, where elements within a partition belong to the same transition-equivalence class.
 
-A **set** is a finite sequence of ByteWords partitioned by NULL,
-where elements within a partition belong to the same transition-equivalence class.
-
-```
-
+```text
 Sets are NULL-delimited collections of morphically equivalent transitions.
-
 ```
 
-**MSC/QSD corollary:**
-```
+**MSC/QSD corollary 0.4.1.**
 
+```text
 Sets are not operationally primitive.
 Sets are derived from morphisms and their stabilization.
+```
 
-````
-
----
-
-### Observability Example
+## §0.5 Observability Example
 
 ```python
-# A ByteWord in isolation has no observational content
+# A ByteWord in isolation has no observational content.
 bw = ByteWord(0x93)
 
-# Observation requires relation
+# Observation requires relation.
 bw1 = ByteWord(0x93)
 bw2 = ByteWord(0xAC)
 
@@ -1429,61 +1534,15 @@ transition = bw1.xor(bw2)  # 0x3F
 
 # Observable element:
 # ⟨bw2|XOR|bw1⟩ = 0x3F
-````
+```
 
 The set `{bw1, bw2}` is **derived from the observable transition**, not assumed beforehand.
 
 ---
 
-## §3 Cognitive Framing (Pedagogical)
+# §0 ByteWord Arity and Why It Is 2
 
-This framework enforces a **dyadic mode of cognition**:
-
-* No isolated facts
-* No isolated meanings
-* Always relation, contrast, transition
-
-```
-Conscious ↔ Unconscious
-Ego ↔ Shadow
-Persona ↔ Anima
-```
-
-This is not metaphorical ornamentation; it reflects the structural necessity of relational observability.
-
----
-
-## §4 The Cognitive Requirement
-
-Traditional computing:
-
-```
-Data (sets) → Functions → Computation
-```
-
-MSC/QSD:
-
-```
-Morphisms → Transitions → Sets
-```
-
-Not:
-
-* “What is the value?”
-* “What does this mean?”
-
-But:
-
-* “How does this transform?”
-* “What stabilizes under repetition?”
-
-Meaning is not assumed; it **emerges via morphological dynamics**.
-
----
-
-## §5 ByteWord Arity and Why It Is 2
-
-### §5.1 Why Arity = 2
+## §0.1 Why Arity = 2
 
 **Mathematical:**
 
@@ -1510,9 +1569,7 @@ X → X
 
 requires a distinction between source and target roles, even when they coincide extensionally.
 
----
-
-### §5.2 The 1→2 Interpretations
+## §0.2 The 1→2 Interpretations
 
 **Process arity:**
 
@@ -1536,7 +1593,31 @@ In MSC/QSD, these arities **coincide operationally**, indicating a shared underl
 
 ---
 
-## §6 Takeaway & the future
+# §0 Putonghua as Native Morphological Source Code
+
+Mandarin Chinese offers a rare empirical instance of a **naturally evolved morphological source code**. Its logographic system, refined over three millennia, encodes meaning not as atomic symbols but as **structured compositions of semantic and phonetic morphisms**:
+
+> **形旁 (semantic radical) + 声旁 (phonetic component) ⇒ emergent concept**
+
+This is not metaphor. It is **engineered morphology**: each character is a decomposable equation, readable by both humans and (potentially) machines. Consider 象 (*xiàng*, "elephant"):
+
+- **Semantic field:** ⻖ (tusk/animal)
+- **Phonetic hint:** 豕 (*shǐ*, "pig," approximating ancient pronunciation)
+- **Emergent meaning:** "elephant"
+
+The system's origin lies in **experimental semiotics** and its application through **hermeneutics**: Shang dynasty scribes carved glyphs into bone, then read meaning in the **interaction** between fixed form (the glyph) and stochastic fracture (the fire's crack). The scribe was not a creator but a **witness to morphological emergence** — a role mirroring the MSC/QSD observer.
+
+Critically, **Western computing remains blind to this paradigm**. Treating Hanzi as atomic tokens ignores their internal transition structure. Yet this very structure satisfies the framework's core tenets:
+
+- **Observables precede states:** meaning arises from the *relation* between 形 and 意, not from either in isolation.
+- **Transitions precede sets:** characters are not elements of a set; they are **orbits under morphological transformation** (e.g., adding 氵 to 工 yields 江, "river").
+- **Meaning is derived:** no dictionary lookup is needed — decompose, relate, infer.
+
+Thus Putonghua is not merely a language. It is a **closed noetic system**; a living **MSC**. As a previously "hooked-on-phonics" linguistic novice — which, no hate, may be what it took to bootstrap the digital age — now learning Chinese after a lifetime of basically ignoring it, I find it all a bit overwhelming. I apologize for any faux pas I may commit and will refrain from pointing and gawking (to put it mildly; there are real problems associated with this thing I'm attempting to brush off right now). Add to it the fact that my cognitive horizons are expanding at the same time as my vocabulary and awareness of Chinese, and my unorthodox style (and project, to be honest) can come off as overly excited and, regrettably, even Orientalist. My one defence is that it is not *only* the Chinese language: all ideographic, pictographic, hybrid-phonetic, or other non-phonics-only languages demonstrate that **morphism-first epistemology is not only possible but historically and culturally actualized**. Should I have to go down fighting with any of my rhetorical cognitive comrades, then let it be Jung — specifically, the identity and historical-cultural moment that is the hill I will die on (and *not* Schopenhauer; I allow the reader to read between the lines rather than stating it outright). The goal of this project is not co-invention or piracy but **recognition** — of, and further study and engineering toward; digitizing Hanzi not as text but as **executable morphology**.
+
+---
+
+## §0 Takeaway & the future
 
 You cannot observe structure without relation.
 You cannot derive meaning without transition.
